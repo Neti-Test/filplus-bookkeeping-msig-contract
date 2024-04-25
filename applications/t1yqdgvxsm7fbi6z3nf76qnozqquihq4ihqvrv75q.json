@@ -36,11 +36,11 @@
     "Weekly Allocation": "1"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "StartSignDatacap",
     "Validated At": "2024-04-25 18:17:54.594388386 UTC",
     "Validated By": "SzymonZiebaNeti",
     "Active": true,
-    "Updated At": "2024-04-25 18:17:54.594391923 UTC",
+    "Updated At": "2024-04-25 18:19:13.644843152 UTC",
     "Active Request ID": "a825f4e3-ba8c-4601-b9d1-49867ee1a2ef",
     "On Chain Address": "t1yqdgvxsm7fbi6z3nf76qnozqquihq4ihqvrv75q",
     "Multisig Address": "false"
@@ -53,7 +53,14 @@
       "Updated At": "2024-04-25 18:17:54.594393636 UTC",
       "Active": true,
       "Allocation Amount": "1PiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "SzymonZiebaNeti",
+          "Signing Address": "f1sqwwp3q537tgztr6maqjabhqyouu7uoycmsts7i",
+          "Created At": "2024-04-25 18:19:10.784000000 UTC",
+          "Message CID": "bafy2bzaceaox4jxnzmct56pa2wz2csdebmghb5dxbvenrmys4oh67jiih5of6"
+        }
+      ]
     }
   ]
 }
