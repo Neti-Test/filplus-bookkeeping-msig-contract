@@ -36,11 +36,11 @@
     "Weekly Allocation": "1"
   },
   "Lifecycle": {
-    "State": "StartSignDatacap",
+    "State": "Granted",
     "Validated At": "2024-04-25 02:17:23.733642720 UTC",
     "Validated By": "SzymonZiebaNeti",
     "Active": true,
-    "Updated At": "2024-04-25 02:20:51.868437582 UTC",
+    "Updated At": "2024-04-25 02:29:08.984804692 UTC",
     "Active Request ID": "dcf2eb2f-fd85-484c-bf21-5b1a626aee79",
     "On Chain Address": "t1yqdgvxsm7fbi6z3nf76qnozqquihq4ihqvrv75q",
     "Multisig Address": "false"
@@ -51,7 +51,7 @@
       "Request Type": "First",
       "Created At": "2024-04-25 02:17:23.733650555 UTC",
       "Updated At": "2024-04-25 02:17:23.733652298 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1TiB",
       "Signers": [
         {
@@ -59,6 +59,12 @@
           "Signing Address": "f1sqwwp3q537tgztr6maqjabhqyouu7uoycmsts7i",
           "Created At": "2024-04-25 02:20:48.964000000 UTC",
           "Message CID": "bafy2bzaceaafm5dgagrrl64zpmjgxv4bb53eqzvwrfpl3n4fizxnnh37dpzwk"
+        },
+        {
+          "Github Username": "SzymonZiebaNeti",
+          "Signing Address": "f1cbfxphkqhworbuugpkrhayxo2dumf5zjjyy677y",
+          "Created At": "2024-04-25 02:29:06.169000000 UTC",
+          "Message CID": "bafy2bzacebd42n6ckgl4m34vksgqhlrgrrrwda4sceuvla3eyccnb6hibbuye"
         }
       ]
     }
