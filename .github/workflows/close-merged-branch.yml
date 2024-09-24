@@ -7,7 +7,7 @@ jobs:
   delete-branch:
     runs-on: ubuntu-latest
     env:
-      BACKEND_URL: https://filplus-backend-staging.d2q2n00eeqikm.us-east-1.cs.amazonlightsail.com
+      BACKEND_URL: https://api.staging.allocator.tech
     steps:
       - name: Delete branch
         run: |
