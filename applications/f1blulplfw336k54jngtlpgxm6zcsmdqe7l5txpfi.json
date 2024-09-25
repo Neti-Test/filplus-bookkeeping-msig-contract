@@ -39,8 +39,8 @@
     "Validated At": "2024-09-24 11:21:28.523806048 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2024-09-25 08:21:15.916031645 UTC",
-    "Active Request ID": "b89f65ec-7419-418b-8f3b-ff1b7ec97cea",
+    "Updated At": "2024-09-25 09:14:06.377700280 UTC",
+    "Active Request ID": "a9bb79ee-1d4f-48ec-a005-a65825881fe2",
     "On Chain Address": "f1blulplfw336k54jngtlpgxm6zcsmdqe7l5txpfi",
     "Multisig Address": "false",
     "edited": false
@@ -59,6 +59,22 @@
           "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
           "Created At": "2024-09-25 08:21:13.730000000 UTC",
           "Message CID": "bafy2bzacedjfdbez3nvxcapd7b5dfahhwh2ok5vqa5rtlmwgudkjg6uvwcyhw"
+        }
+      ]
+    },
+    {
+      "ID": "a9bb79ee-1d4f-48ec-a005-a65825881fe2",
+      "Request Type": "Refill",
+      "Created At": "2024-09-25 09:12:34.978954608 UTC",
+      "Updated At": "2024-09-25 09:12:34.978955730 UTC",
+      "Active": false,
+      "Allocation Amount": "32GiB",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Created At": "2024-09-25 09:14:04.084000000 UTC",
+          "Message CID": "bafy2bzacedmapv7bdtdk5vsfo3ltahfbctujasp5ed6w37sutlenmlurt3stk"
         }
       ]
     }
