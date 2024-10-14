@@ -3,13 +3,13 @@
   "ID": "t1sqqvbl4dxpoozmyzgdsqk22xrzxeptrgdsgdpsq",
   "Issue Number": "16",
   "Client": {
-    "Name": "Neti common dev",
-    "Region": "Some Data Owner Country",
-    "Industry": "Some Data Owner Industry",
+    "Name": "Neti common dev Test",
+    "Region": "Some Data Owner Country Test",
+    "Industry": "Some Data Owner Industry Test",
     "Website": "Some website",
     "Social Media": "",
     "Social Media Type": "",
-    "Role": "Some Role"
+    "Role": "Some Role Test"
   },
   "Project": {
     "Brief history of your project and organization": "Some brief history of project and org.",
