@@ -35,11 +35,11 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "StartSignDatacap",
+    "State": "Granted",
     "Validated At": "2024-10-14 16:01:23.254974096 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2024-10-14 16:03:58.578344560 UTC",
+    "Updated At": "2024-10-14 16:09:21.298860187 UTC",
     "Active Request ID": "4af123cb-847f-4f89-afa2-00281b87d72a",
     "On Chain Address": "t1sqqvbl4dxpoozmyzgdsqk22xrzxeptrgdsgdpsq",
     "Multisig Address": "false",
@@ -95,7 +95,7 @@
       "Request Type": "Refill",
       "Created At": "2024-10-14 16:01:23.255001878 UTC",
       "Updated At": "2024-10-14 16:01:23.255005245 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "32GiB",
       "Signers": [
         {
@@ -103,6 +103,12 @@
           "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
           "Created At": "2024-10-14 16:03:54.380000000 UTC",
           "Message CID": "bafy2bzacebguw74p2ov52ggha337djn5ms5f5tfso2rqfpuhqrdvelgykyg4y"
+        },
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1blulplfw336k54jngtlpgxm6zcsmdqe7l5txpfi",
+          "Created At": "2024-10-14 16:09:18.058000000 UTC",
+          "Message CID": "bafy2bzaceal2m6x2dr6oxv32s26s5lw337wj2vnhiuwcbp3c3yjqpowsvc2uo"
         }
       ]
     }
