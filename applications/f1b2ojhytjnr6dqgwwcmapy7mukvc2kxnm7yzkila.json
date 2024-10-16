@@ -35,11 +35,11 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
+    "State": "KYCRequested",
     "Validated At": "",
     "Validated By": "",
     "Active": true,
-    "Updated At": "2024-10-15 08:50:06.016576451 UTC",
+    "Updated At": "2024-10-16 20:32:02.018148543 UTC",
     "Active Request ID": "",
     "On Chain Address": "f1b2ojhytjnr6dqgwwcmapy7mukvc2kxnm7yzkila",
     "Multisig Address": "false",
