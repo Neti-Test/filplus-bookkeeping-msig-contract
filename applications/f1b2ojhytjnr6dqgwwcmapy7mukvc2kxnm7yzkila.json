@@ -35,11 +35,11 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "StartSignDatacap",
+    "State": "Granted",
     "Validated At": "2024-10-18 10:30:52.446123387 UTC",
     "Validated By": "lukasz-wal",
     "Active": true,
-    "Updated At": "2024-10-18 10:55:24.714200727 UTC",
+    "Updated At": "2024-10-21 09:49:48.791373553 UTC",
     "Active Request ID": "22e11c8b-25a6-443c-80e0-2ebd074b0d98",
     "On Chain Address": "f1b2ojhytjnr6dqgwwcmapy7mukvc2kxnm7yzkila",
     "Multisig Address": "false",
@@ -51,7 +51,7 @@
       "Request Type": "First",
       "Created At": "2024-10-18 10:30:52.446129740 UTC",
       "Updated At": "2024-10-18 10:30:52.446130544 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "32GiB",
       "Signers": [
         {
@@ -59,6 +59,12 @@
           "Signing Address": "f1kondrvyrnyypismf573otgrnl65n7fizbwvqeui",
           "Created At": "2024-10-18 10:55:22.428000000 UTC",
           "Message CID": "bafy2bzaceceud6gtaw5qfjvwrz2xfb42sthmlian3z2f2wo436gzwv3n57z5a"
+        },
+        {
+          "Github Username": "lukasz-wal",
+          "Signing Address": "f12bmwnuroxvi4zk56zv2q3quuzfehiyoojmb43ta",
+          "Created At": "2024-10-21 09:49:46.831000000 UTC",
+          "Message CID": "bafy2bzacedvdiyt33k4w7gvgpizhnond4fgjiwqujcqb24jyvf7cm76kqc32q"
         }
       ]
     }
