@@ -2,7 +2,7 @@
   "Version": "1.3",
   "ID": "f1owcbryeqlq3vl7kydzax7r75sbtyvgpnny7fswy",
   "Issue Number": "28",
-  "Client Contract Address": null,
+  "Client Contract Address": "tak",
   "Client": {
     "Name": "Neti common dev Test",
     "Region": "Some Data Owner Country Test",
@@ -44,7 +44,7 @@
     "Active Request ID": "65d0311d-110c-4aa1-b738-ed2b1f968235",
     "On Chain Address": "f1owcbryeqlq3vl7kydzax7r75sbtyvgpnny7fswy",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
