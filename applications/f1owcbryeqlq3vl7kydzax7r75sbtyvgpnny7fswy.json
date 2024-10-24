@@ -36,11 +36,11 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-10-24 11:36:54.030093575 UTC",
     "Validated By": "lukasz-wal",
     "Active": true,
-    "Updated At": "2024-10-24 11:36:54.030098158 UTC",
+    "Updated At": "2024-10-24 14:21:22.495209361 UTC",
     "Active Request ID": "19f6e1b2-d76e-43c7-b2d6-74450fc07305",
     "On Chain Address": "f1owcbryeqlq3vl7kydzax7r75sbtyvgpnny7fswy",
     "Multisig Address": "false",
@@ -52,9 +52,16 @@
       "Request Type": "First",
       "Created At": "2024-10-24 11:36:54.030100282 UTC",
       "Updated At": "2024-10-24 11:36:54.030101377 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "32GiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "lukasz-wal",
+          "Signing Address": "f12bmwnuroxvi4zk56zv2q3quuzfehiyoojmb43ta",
+          "Created At": "2024-10-24 14:21:20.438000000 UTC",
+          "Message CID": "bafy2bzacedjm7y7tatbeefs7llaygw7n7oj7hfi3lm7ce2opzk5y5rxnuzwfs"
+        }
+      ]
     }
   ]
 }
