@@ -2,7 +2,7 @@
   "Version": "1.3",
   "ID": "f1owcbryeqlq3vl7kydzax7r75sbtyvgpnny7fswy",
   "Issue Number": "28",
-  "Client Contract Address": null,
+  "Client Contract Address": "t410f3rcr3t6omqusetedlme6md722xv3xspqs6k6ftq",
   "Client": {
     "Name": "Neti common dev Test",
     "Region": "Some Data Owner Country Test",
@@ -36,15 +36,25 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2024-10-24 11:36:54.030093575 UTC",
+    "Validated By": "lukasz-wal",
     "Active": true,
-    "Updated At": "2024-10-22 10:14:44.409490400 UTC",
-    "Active Request ID": "",
+    "Updated At": "2024-10-24 11:36:54.030098158 UTC",
+    "Active Request ID": "19f6e1b2-d76e-43c7-b2d6-74450fc07305",
     "On Chain Address": "f1owcbryeqlq3vl7kydzax7r75sbtyvgpnny7fswy",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "19f6e1b2-d76e-43c7-b2d6-74450fc07305",
+      "Request Type": "First",
+      "Created At": "2024-10-24 11:36:54.030100282 UTC",
+      "Updated At": "2024-10-24 11:36:54.030101377 UTC",
+      "Active": true,
+      "Allocation Amount": "32GiB",
+      "Signers": []
+    }
+  ]
 }
