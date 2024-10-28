@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "ChangingSP",
-    "Validated At": "2024-10-28 14:27:10.272444869 UTC",
+    "Validated At": "2024-10-28 15:08:04.595849252 UTC",
     "Validated By": "Filip-L ",
     "Active": true,
-    "Updated At": "2024-10-28 14:27:10.272418278 UTC",
-    "Active Request ID": "9c4e6b0e-3273-452a-be0c-4c01426755d8",
+    "Updated At": "2024-10-28 15:08:04.595820036 UTC",
+    "Active Request ID": "7aaac61d-4a04-4be4-9608-a71799033b7c",
     "On Chain Address": "t1k5hgunoimyhhqyduw3e5pmq425nsn5cuiw75ggi",
     "Multisig Address": "false",
     "edited": false
@@ -73,6 +73,25 @@
         {
           "Github Username": "Filip-L ",
           "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui"
+        }
+      ]
+    },
+    {
+      "ID": "7aaac61d-4a04-4be4-9608-a71799033b7c",
+      "Created At": "2024-10-28 15:07:58.763165755 UTC",
+      "Updated At": "2024-10-28 15:07:58.763174161 UTC",
+      "Active": true,
+      "Allowed Storage Providers": [
+        5001,
+        5002
+      ],
+      "Removed Storage Providers": [],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "Filip-L ",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Set Max Deviation CID": "bafy2bzacechywcqtivd7nsxw7zz6ku2udztqpqyyizjkzrgahporxrdqvhg4g"
         }
       ]
     }
