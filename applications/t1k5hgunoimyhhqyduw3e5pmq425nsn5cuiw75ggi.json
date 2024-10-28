@@ -117,6 +117,17 @@
               "5001"
             ]
           }
+        },
+        {
+          "Github Username": "Filip-L ",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Set Max Deviation CID": "bafy2bzacechywcqtivd7nsxw7zz6ku2udztqpqyyizjkzrgahporxrdqvhg4g",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebtkqcsmzxxhdqf3brko7elvxb6hmmjpd4jv5efba7qq26ebmyreu": [
+              "3001",
+              "5001"
+            ]
+          }
         }
       ]
     }
