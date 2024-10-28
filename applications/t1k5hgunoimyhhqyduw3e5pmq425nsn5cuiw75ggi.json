@@ -2,7 +2,7 @@
   "Version": "1.3",
   "ID": "t1k5hgunoimyhhqyduw3e5pmq425nsn5cuiw75ggi",
   "Issue Number": "33",
-  "Client Contract Address": "t410f3rcr3t6omqusetedlme6md722xv3xspqs6k6ftq",
+  "Client Contract Address": null,
   "Client": {
     "Name": "Neti common dev Test",
     "Region": "Some Data Owner Country Test",
@@ -36,111 +36,15 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2024-10-28 16:34:48.319951538 UTC",
-    "Validated By": "Filip-L ",
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
     "Active": true,
-    "Updated At": "2024-10-28 16:34:48.319920839 UTC",
-    "Active Request ID": "3aac3978-3587-4cdd-b4ed-72fcca4bd2d1",
+    "Updated At": "2024-10-28 16:35:10.987608955 UTC",
+    "Active Request ID": "",
     "On Chain Address": "t1k5hgunoimyhhqyduw3e5pmq425nsn5cuiw75ggi",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": [
-    {
-      "ID": "3aac3978-3587-4cdd-b4ed-72fcca4bd2d1",
-      "Request Type": "First",
-      "Created At": "2024-10-28 12:06:24.382432961 UTC",
-      "Updated At": "2024-10-28 12:06:24.382436899 UTC",
-      "Active": true,
-      "Allocation Amount": "32GiB",
-      "Signers": []
-    }
-  ],
-  "Storage Providers Change Requests": [
-    {
-      "ID": "9c4e6b0e-3273-452a-be0c-4c01426755d8",
-      "Created At": "2024-10-28 14:27:05.472770285 UTC",
-      "Updated At": "2024-10-28 14:27:05.472786647 UTC",
-      "Active": true,
-      "Allowed Storage Providers": [
-        5001,
-        5002
-      ],
-      "Removed Storage Providers": [],
-      "Max Deviation": "10%",
-      "Signers": [
-        {
-          "Github Username": "Filip-L ",
-          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui"
-        }
-      ]
-    },
-    {
-      "ID": "7aaac61d-4a04-4be4-9608-a71799033b7c",
-      "Created At": "2024-10-28 15:07:58.763165755 UTC",
-      "Updated At": "2024-10-28 15:07:58.763174161 UTC",
-      "Active": true,
-      "Allowed Storage Providers": [
-        5001,
-        5002
-      ],
-      "Removed Storage Providers": [],
-      "Max Deviation": "10%",
-      "Signers": [
-        {
-          "Github Username": "Filip-L ",
-          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
-          "Set Max Deviation CID": "bafy2bzacechywcqtivd7nsxw7zz6ku2udztqpqyyizjkzrgahporxrdqvhg4g"
-        }
-      ]
-    },
-    {
-      "ID": "7bc489ce-02aa-4247-8549-87d8d55f830f",
-      "Created At": "2024-10-28 15:37:19.174551305 UTC",
-      "Updated At": "2024-10-28 15:37:19.174567335 UTC",
-      "Active": true,
-      "Allowed Storage Providers": [
-        5001,
-        5002
-      ],
-      "Removed Storage Providers": [],
-      "Max Deviation": "10%",
-      "Signers": [
-        {
-          "Github Username": "Filip-L ",
-          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
-          "Set Max Deviation CID": "bafy2bzacechywcqtivd7nsxw7zz6ku2udztqpqyyizjkzrgahporxrdqvhg4g",
-          "Add Allowed Storage Providers CID": {
-            "bafy2bzacebtkqcsmzxxhdqf3brko7elvxb6hmmjpd4jv5efba7qq26ebmyreu": [
-              "3001",
-              "5001"
-            ]
-          }
-        },
-        {
-          "Github Username": "Filip-L ",
-          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
-          "Set Max Deviation CID": "bafy2bzacechywcqtivd7nsxw7zz6ku2udztqpqyyizjkzrgahporxrdqvhg4g",
-          "Add Allowed Storage Providers CID": {
-            "bafy2bzacebtkqcsmzxxhdqf3brko7elvxb6hmmjpd4jv5efba7qq26ebmyreu": [
-              "3001",
-              "5001"
-            ]
-          }
-        },
-        {
-          "Github Username": "Filip-L ",
-          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
-          "Set Max Deviation CID": "bafy2bzacechywcqtivd7nsxw7zz6ku2udztqpqyyizjkzrgahporxrdqvhg4g",
-          "Add Allowed Storage Providers CID": {
-            "bafy2bzacebtkqcsmzxxhdqf3brko7elvxb6hmmjpd4jv5efba7qq26ebmyreu": [
-              "3001",
-              "5001"
-            ]
-          }
-        }
-      ]
-    }
-  ]
+  "Allocation Requests": []
 }
