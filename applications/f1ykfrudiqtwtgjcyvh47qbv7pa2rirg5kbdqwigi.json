@@ -2,7 +2,7 @@
   "Version": "1.3",
   "ID": "f1ykfrudiqtwtgjcyvh47qbv7pa2rirg5kbdqwigi",
   "Issue Number": "37",
-  "Client Contract Address": "t410f3rcr3t6omqusetedlme6md722xv3xspqs6k6ftq",
+  "Client Contract Address": null,
   "Client": {
     "Name": "Neti common dev Test",
     "Region": "Some Data Owner Country Test",
@@ -36,112 +36,15 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2024-10-30 10:01:13.847293774 UTC",
-    "Validated By": "Filip-L ",
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
     "Active": true,
-    "Updated At": "2024-10-30 10:01:13.847265419 UTC",
-    "Active Request ID": "5849a2d1-9d6e-4052-81ef-fd0e44a89a20",
+    "Updated At": "2024-10-30 10:01:27.215988359 UTC",
+    "Active Request ID": "",
     "On Chain Address": "f1ykfrudiqtwtgjcyvh47qbv7pa2rirg5kbdqwigi",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": [
-    {
-      "ID": "5849a2d1-9d6e-4052-81ef-fd0e44a89a20",
-      "Request Type": "First",
-      "Created At": "2024-10-30 09:00:41.352255384 UTC",
-      "Updated At": "2024-10-30 09:00:41.352261235 UTC",
-      "Active": true,
-      "Allocation Amount": "32GiB",
-      "Signers": []
-    }
-  ],
-  "Storage Providers Change Requests": [
-    {
-      "ID": "4b49b682-9b17-4fce-9ce1-8db7dc47908c",
-      "Created At": "2024-10-30 09:06:54.257175150 UTC",
-      "Updated At": "2024-10-30 09:06:54.257187895 UTC",
-      "Active": true,
-      "Allowed Storage Providers": [
-        3001,
-        1231,
-        6324,
-        1238
-      ],
-      "Signers": [
-        {
-          "Github Username": "Filip-L",
-          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
-          "Add Allowed Storage Providers CID": {
-            "bafy2bzacecxtm7e575jbbphssfhyrtusbcnm537aoue27y6gmybhj7huiru2a": [
-              "6324",
-              "1238"
-            ]
-          },
-          "Remove Allowed Storage Providers CID": {
-            "bafy2bzaceb5kib7qetggtvu3b4gbqdzom3np726mb5ljzragy3b6lvfj6cjbe": [
-              "34523",
-              "44233"
-            ]
-          }
-        },
-        {
-          "Github Username": "Filip-L",
-          "Signing Address": "f1blulplfw336k54jngtlpgxm6zcsmdqe7l5txpfi",
-          "Add Allowed Storage Providers CID": {
-            "bafy2bzacebaid4hlabnyoraq6dt3m2bdhzvxht6efg3py6b2lnuqdqezhjcmi": [
-              "6324",
-              "1238"
-            ]
-          },
-          "Remove Allowed Storage Providers CID": {
-            "bafy2bzacea4zixmrz3kuxyek3v75ljrjrox6bvgfcgn2a6dj42jsx37us27xy": [
-              "34523",
-              "44233"
-            ],
-            "bafy2bzaceacps7o5iyo5b7nt52qvgfsfvoqklr363kznfrokvfqh2o36yzmie": [
-              "34523",
-              "44233"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "ID": "6f66cf88-eb2f-4fb2-bd4e-5e3e6778af05",
-      "Created At": "2024-10-30 09:59:26.642737040 UTC",
-      "Updated At": "2024-10-30 09:59:26.642754584 UTC",
-      "Active": false,
-      "Allowed Storage Providers": [
-        5001,
-        5002
-      ],
-      "Max Deviation": "10%",
-      "Signers": [
-        {
-          "Github Username": "Filip-L ",
-          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
-          "Set Max Deviation CID": "bafy2bzacechywcqtivd7nsxw7zz6ku2udztqpqyyizjkzrgahporxrdqvhg4g",
-          "Add Allowed Storage Providers CID": {
-            "bafy2bzacebtkqcsmzxxhdqf3brko7elvxb6hmmjpd4jv5efba7qq26ebmyreu": [
-              "3001",
-              "5001"
-            ]
-          }
-        },
-        {
-          "Github Username": "Filip-L ",
-          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
-          "Set Max Deviation CID": "bafy2bzacechywcqtivd7nsxw7zz6ku2udztqpqyyizjkzrgahporxrdqvhg4g",
-          "Add Allowed Storage Providers CID": {
-            "bafy2bzacebtkqcsmzxxhdqf3brko7elvxb6hmmjpd4jv5efba7qq26ebmyreu": [
-              "3001",
-              "5001"
-            ]
-          }
-        }
-      ]
-    }
-  ]
+  "Allocation Requests": []
 }
