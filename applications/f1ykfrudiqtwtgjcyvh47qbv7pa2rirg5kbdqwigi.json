@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2024-10-30 10:23:08.948553655 UTC",
+    "Validated At": "2024-10-30 10:26:47.186095331 UTC",
     "Validated By": "Filip-L ",
     "Active": true,
-    "Updated At": "2024-10-30 10:23:08.948522075 UTC",
-    "Active Request ID": "a0523cd9-548a-4d59-b084-a09f6def8a6b",
+    "Updated At": "2024-10-30 10:26:47.186066736 UTC",
+    "Active Request ID": "ffb4bfa3-280c-46bd-8763-eedce1b6158f",
     "On Chain Address": "f1ykfrudiqtwtgjcyvh47qbv7pa2rirg5kbdqwigi",
     "Multisig Address": "false",
     "edited": false
@@ -75,6 +75,41 @@
       "ID": "a0523cd9-548a-4d59-b084-a09f6def8a6b",
       "Created At": "2024-10-30 10:21:57.750014677 UTC",
       "Updated At": "2024-10-30 10:21:57.750027621 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        5001,
+        5002
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "Filip-L ",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Set Max Deviation CID": "bafy2bzacechywcqtivd7nsxw7zz6ku2udztqpqyyizjkzrgahporxrdqvhg4g",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebtkqcsmzxxhdqf3brko7elvxb6hmmjpd4jv5efba7qq26ebmyreu": [
+              "3001",
+              "5001"
+            ]
+          }
+        },
+        {
+          "Github Username": "Filip-L ",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Set Max Deviation CID": "bafy2bzacechywcqtivd7nsxw7zz6ku2udztqpqyyizjkzrgahporxrdqvhg4g",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebtkqcsmzxxhdqf3brko7elvxb6hmmjpd4jv5efba7qq26ebmyreu": [
+              "3001",
+              "5001"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "ffb4bfa3-280c-46bd-8763-eedce1b6158f",
+      "Created At": "2024-10-30 10:26:07.132832130 UTC",
+      "Updated At": "2024-10-30 10:26:07.132843812 UTC",
       "Active": false,
       "Allowed Storage Providers": [
         5001,
