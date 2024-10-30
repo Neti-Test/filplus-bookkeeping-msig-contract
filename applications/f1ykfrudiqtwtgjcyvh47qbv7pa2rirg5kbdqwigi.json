@@ -36,12 +36,12 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "ChangingSP",
-    "Validated At": "2024-10-30 08:30:26.437969082 UTC",
+    "State": "ReadyToSign",
+    "Validated At": "2024-10-30 08:39:16.665418430 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2024-10-30 08:30:26.437963692 UTC",
-    "Active Request ID": "045e7f9c-f7e7-4630-a12f-c71d96b6c2cd",
+    "Updated At": "2024-10-30 08:39:16.665393567 UTC",
+    "Active Request ID": "5ae05b9a-9877-40c2-a79b-07418bf9fc27",
     "On Chain Address": "f1ykfrudiqtwtgjcyvh47qbv7pa2rirg5kbdqwigi",
     "Multisig Address": "false",
     "edited": false
@@ -84,6 +84,10 @@
               "5000"
             ]
           }
+        },
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1blulplfw336k54jngtlpgxm6zcsmdqe7l5txpfi"
         }
       ]
     }
