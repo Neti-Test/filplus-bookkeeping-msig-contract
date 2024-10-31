@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2024-10-31 11:39:03.791172671 UTC",
+    "Validated At": "2024-10-31 11:44:05.170081854 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2024-10-31 11:39:03.791168659 UTC",
+    "Updated At": "2024-10-31 11:44:05.170080910 UTC",
     "Active Request ID": "5e40b921-a182-417c-ba3c-8018cfc5f446",
     "On Chain Address": "t1k5hgunoimyhhqyduw3e5pmq425nsn5cuiw75ggi",
     "Multisig Address": "false",
@@ -82,6 +82,36 @@
             "bafy2bzacedr5ib64oe2c467o37vxl667it4ajgyzbmtewqybypdcajtuxb3rg": [
               "1600",
               "2000"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "4711cff6-7058-4425-886b-25de46e76634",
+      "Created At": "2024-10-31 11:44:05.170073610 UTC",
+      "Updated At": "2024-10-31 11:44:05.170076676 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        2000,
+        1564,
+        1242314
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Set Max Deviation CID": "bafy2bzaced7aufkvq32k7czfujndr7cridaybc2vfogpyne6tr4zz4ufyh77u",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacechtjdmkswns4godfnd2tj4e6opecruznc6mi3rjijb4lxp7l5mqy": [
+              "1564",
+              "1242314"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacedansq4ypqw2ciypy2jq6zpjyqnc5pvqlfac6enk7padqfojwdugu": [
+              "1600"
             ]
           }
         }
