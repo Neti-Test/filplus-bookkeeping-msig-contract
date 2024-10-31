@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2024-10-31 14:34:23.196625245 UTC",
+    "Validated At": "2024-10-31 14:36:05.095107604 UTC",
     "Validated By": "lukasz-wal",
     "Active": true,
-    "Updated At": "2024-10-31 14:34:23.196624499 UTC",
-    "Active Request ID": "a29839f1-7880-4141-b13c-dea7599ff239",
+    "Updated At": "2024-10-31 14:36:05.095106890 UTC",
+    "Active Request ID": "ded9790c-6fa1-4c26-a3c0-de6823ab53fa",
     "On Chain Address": "t1k5hgunoimyhhqyduw3e5pmq425nsn5cuiw75ggi",
     "Multisig Address": "false",
     "edited": false
@@ -198,10 +198,6 @@
           "Github Username": "lukasz-wal",
           "Signing Address": "f1kondrvyrnyypismf573otgrnl65n7fizbwvqeui",
           "Add Allowed Storage Providers CID": {
-            "bafy2bzaceaoxvyxpfdnarx7mq5gftilc4yvewqxeej7ocpi7stynxvpzxxkds": [
-              "9",
-              "10"
-            ],
             "bafy2bzacedr2frypp5omqkm6b7wzrasykpsnvzsq3ua5wb3xi7oa6gbtyek6y": [
               "1",
               "2",
@@ -211,6 +207,40 @@
               "6",
               "7",
               "8"
+            ],
+            "bafy2bzaceaoxvyxpfdnarx7mq5gftilc4yvewqxeej7ocpi7stynxvpzxxkds": [
+              "9",
+              "10"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "8094917e-464f-4a6a-bb8b-d949b23b7982",
+      "Created At": "2024-10-31 14:36:05.095098453 UTC",
+      "Updated At": "2024-10-31 14:36:05.095101677 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        1242314,
+        123,
+        1,
+        2
+      ],
+      "Signers": [
+        {
+          "Github Username": "lukasz-wal",
+          "Signing Address": "f1kondrvyrnyypismf573otgrnl65n7fizbwvqeui",
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacebw275eojh5sanuct3fqpkkaw3ucsgrecpkcicxqajknqejpmdgbc": [
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
             ]
           }
         }
