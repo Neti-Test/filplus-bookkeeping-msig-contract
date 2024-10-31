@@ -1,0 +1,178 @@
+{
+  "Version": "1.3",
+  "ID": "t1k5hgunoimyhhqyduw3e5pmq425nsn5cuiw75ggi",
+  "Issue Number": "33",
+  "Client Contract Address": "t410f3rcr3t6omqusetedlme6md722xv3xspqs6k6ftq",
+  "Client": {
+    "Name": "Neti common dev Test",
+    "Region": "Some Data Owner Country Test",
+    "Industry": "Some Data Owner Industry Test",
+    "Website": "Some website",
+    "Social Media": "",
+    "Social Media Type": "",
+    "Role": "Some Role Test"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Some brief history of project and org.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Some data description",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "Some process of data prep.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Some sample of the data",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x]  I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Some geographies",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "128GiB",
+    "Single Size Dataset": "32GiB",
+    "Replicas": 2,
+    "Weekly Allocation": "128GiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-10-31 11:54:36.018393888 UTC",
+    "Validated By": "lukasz-wal",
+    "Active": true,
+    "Updated At": "2024-10-31 13:51:01.342926007 UTC",
+    "Active Request ID": "5e40b921-a182-417c-ba3c-8018cfc5f446",
+    "On Chain Address": "t1k5hgunoimyhhqyduw3e5pmq425nsn5cuiw75ggi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "5e40b921-a182-417c-ba3c-8018cfc5f446",
+      "Request Type": "First",
+      "Created At": "2024-10-29 08:56:53.931802342 UTC",
+      "Updated At": "2024-10-29 08:56:53.931805489 UTC",
+      "Active": false,
+      "Allocation Amount": "32GiB",
+      "Signers": [
+        {
+          "Github Username": "lukasz-wal",
+          "Signing Address": "f1kondrvyrnyypismf573otgrnl65n7fizbwvqeui",
+          "Created At": "2024-10-31 13:50:58.320000000 UTC",
+          "Message CIDs": {
+            "Message CID": "bafy2bzaceatrdfblj2hxrv2wdlu6ogvhnh2w5jopybhkxpzfssirio32bs7o6",
+            "Increase allowance CID": "bafy2bzaceducsrhzjqibwnsaki7jq4dyl2veufvrbnomzi2dn32hgme4ytawi"
+          }
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "43fdca11-c9e5-4962-a8a5-eacc13e994c0",
+      "Created At": "2024-10-29 09:50:13.316720133 UTC",
+      "Updated At": "2024-10-29 09:50:13.316736775 UTC",
+      "Active": false,
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Set Max Deviation CID": "bafy2bzaced3jodxv6hsgpvta3fx6h5vnu3m3okjssw33zgnhd6nwepyrqux6e",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceaztrcaz7tpk5tuiihuebfpxcrc5fijyyvmivl7lzvscvu26bwamg": [
+              "1600",
+              "2000"
+            ]
+          }
+        },
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacedr5ib64oe2c467o37vxl667it4ajgyzbmtewqybypdcajtuxb3rg": [
+              "1600",
+              "2000"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "4711cff6-7058-4425-886b-25de46e76634",
+      "Created At": "2024-10-31 11:44:05.170073610 UTC",
+      "Updated At": "2024-10-31 11:44:05.170076676 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        2000,
+        1564,
+        1242314
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Set Max Deviation CID": "bafy2bzaced7aufkvq32k7czfujndr7cridaybc2vfogpyne6tr4zz4ufyh77u",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacechtjdmkswns4godfnd2tj4e6opecruznc6mi3rjijb4lxp7l5mqy": [
+              "1564",
+              "1242314"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacedansq4ypqw2ciypy2jq6zpjyqnc5pvqlfac6enk7padqfojwdugu": [
+              "1600"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "6b963b97-3c0a-4875-a20c-3d02375588f2",
+      "Created At": "2024-10-31 11:54:36.018386281 UTC",
+      "Updated At": "2024-10-31 11:54:36.018388852 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        1242314,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "Signers": [
+        {
+          "Github Username": "lukasz-wal",
+          "Signing Address": "f1kondrvyrnyypismf573otgrnl65n7fizbwvqeui",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacedq7unbidti2xwhmqoihypajcrrayg3mwzlm3dbw3ihzozpcpxymm": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8"
+            ],
+            "bafy2bzacecrpmqgwfxguuwgd4o4tpuyyqtk7vtcs45twjao5frvtsywjzqgec": [
+              "9",
+              "10"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacechngdx623nvscuholkcu2gu6llz7qt6qy3tkznfy5qs7riqxfhrq": [
+              "2000",
+              "1564"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
