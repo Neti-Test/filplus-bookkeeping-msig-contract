@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2024-10-31 11:44:05.170081854 UTC",
-    "Validated By": "Filip-L",
+    "Validated At": "2024-10-31 11:54:36.018393888 UTC",
+    "Validated By": "lukasz-wal",
     "Active": true,
-    "Updated At": "2024-10-31 11:44:05.170080910 UTC",
+    "Updated At": "2024-10-31 11:54:36.018393090 UTC",
     "Active Request ID": "5e40b921-a182-417c-ba3c-8018cfc5f446",
     "On Chain Address": "t1k5hgunoimyhhqyduw3e5pmq425nsn5cuiw75ggi",
     "Multisig Address": "false",
@@ -112,6 +112,53 @@
           "Remove Allowed Storage Providers CID": {
             "bafy2bzacedansq4ypqw2ciypy2jq6zpjyqnc5pvqlfac6enk7padqfojwdugu": [
               "1600"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "6b963b97-3c0a-4875-a20c-3d02375588f2",
+      "Created At": "2024-10-31 11:54:36.018386281 UTC",
+      "Updated At": "2024-10-31 11:54:36.018388852 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        1242314,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "Signers": [
+        {
+          "Github Username": "lukasz-wal",
+          "Signing Address": "f1kondrvyrnyypismf573otgrnl65n7fizbwvqeui",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacedq7unbidti2xwhmqoihypajcrrayg3mwzlm3dbw3ihzozpcpxymm": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8"
+            ],
+            "bafy2bzacecrpmqgwfxguuwgd4o4tpuyyqtk7vtcs45twjao5frvtsywjzqgec": [
+              "9",
+              "10"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacechngdx623nvscuholkcu2gu6llz7qt6qy3tkznfy5qs7riqxfhrq": [
+              "2000",
+              "1564"
             ]
           }
         }
