@@ -36,11 +36,11 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-10-31 14:42:15.503802799 UTC",
     "Validated By": "lukasz-wal",
     "Active": true,
-    "Updated At": "2024-10-31 14:42:15.503801767 UTC",
+    "Updated At": "2024-10-31 14:45:33.403722914 UTC",
     "Active Request ID": "0363e8b9-7651-44af-be7c-70f5a0597cde",
     "On Chain Address": "f1cbfxphkqhworbuugpkrhayxo2dumf5zjjyy677y",
     "Multisig Address": "false",
@@ -52,9 +52,19 @@
       "Request Type": "First",
       "Created At": "2024-10-31 09:07:37.146145960 UTC",
       "Updated At": "2024-10-31 09:07:37.146149056 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "32GiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "lukasz-wal",
+          "Signing Address": "f12bmwnuroxvi4zk56zv2q3quuzfehiyoojmb43ta",
+          "Created At": "2024-10-31 14:45:31.226000000 UTC",
+          "Message CIDs": {
+            "Message CID": "bafy2bzaceajap4crllyeg2d5pgec2mzi3r4q2xvfq6242swd2noy4kozooox2",
+            "Increase allowance CID": "bafy2bzacebcyxu5ho2zkgk22vchwjiysdbhwkpyynnzm75a6rmp7d77ef6fl4"
+          }
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
