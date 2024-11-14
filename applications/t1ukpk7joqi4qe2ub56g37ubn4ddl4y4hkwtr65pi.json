@@ -35,7 +35,7 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "StartSignDatacap",
+    "State": "ReadToSign",
     "Validated At": "2024-11-14 14:57:54.508848048 UTC",
     "Validated By": "Filip-L",
     "Active": true,
@@ -53,14 +53,7 @@
       "Updated At": "2024-11-14 13:51:50.585607207 UTC",
       "Active": true,
       "Allocation Amount": "32GiB",
-      "Signers": [
-        {
-          "Github Username": "Filip-L",
-          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
-          "Created At": "2024-11-14 14:57:49.738000000 UTC",
-          "Message CID": "bafy2bzacedyxnheyg3etcnvflbz5uxnp3fskqaqr4r6cxfisa3b2bo75mpl4w"
-        }
-      ]
+      "Signers": []
     }
   ]
 }
