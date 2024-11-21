@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2024-10-30 16:14:53.198050567 UTC",
+    "Validated At": "2024-10-31 10:07:50.366160970 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2024-10-30 18:07:27.143588235 UTC",
-    "Active Request ID": "dd032b1a-b4be-4e0c-a34f-e20703bebb88",
+    "Updated At": "2024-10-31 10:07:50.366131373 UTC",
+    "Active Request ID": "4031ce90-182c-4a19-9f8a-a434eb55c93c",
     "On Chain Address": "f163aphvebakvkce22mkfj4ubrt2qxtcbpuoacaey",
     "Multisig Address": "false",
     "edited": false
@@ -99,6 +99,35 @@
           "Message CIDs": {
             "Message CID": "bafy2bzaceasirafxuw3a7gilnsyebi46w7fnzw5ucloxyr5at2cqdz7475cps",
             "Increase allowance CID": "bafy2bzaced2i6j3khqasiqsfb3iol3alwmhg2dxywkv6l3jm4rmnhdewtk7im"
+          }
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "f55bdaa1-4577-4f86-ba44-5f37cdde50db",
+      "Created At": "2024-10-31 10:07:49.193943616 UTC",
+      "Updated At": "2024-10-31 10:07:49.193970437 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        4234324,
+        214214,
+        341313,
+        54234,
+        2342344,
+        1111,
+        44233,
+        54353453
+      ],
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceataymmfzqhfn6k427j6wmdyobquihkjocwwzxqwsqj7snp5vxhlc": [
+              "54353453"
+            ]
           }
         }
       ]
