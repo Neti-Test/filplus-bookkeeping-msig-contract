@@ -15,7 +15,7 @@ jobs:
           BRANCH_NAME=${{ github.head_ref }}
           echo "Deleting branch: $BRANCH_NAME in repo: $REPO_NAME"
 
-          RESPONSE=$(curl -s -X POST "${BACKEND_URL}/application/branch/delete" \
+          RESPONSE=$(curl -s -X POST "${BACKEND_URL}/application/branch/delet" \
             -H "Content-Type: application/json" \
             -d '{"owner": "'${{ github.repository_owner }}'", "repo": "'$REPO_NAME'", "branch_name": "'$BRANCH_NAME'"}')
 
