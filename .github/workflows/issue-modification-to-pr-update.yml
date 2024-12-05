@@ -20,7 +20,7 @@ jobs:
           --header "Content-Type: application/json" \
           --request POST \
           --data '{"issue_number": "'${{ github.event.issue.number }}'", "repo": "'$REPO_NAME'", "owner": "'${{ github.repository_owner }}'"}' \
-          "${BACKEND_URL}/application/update-from-issu")
+          "${BACKEND_URL}/application/update-from-issue")
 
           if [ "$RESPONSE" -ne 200 ]; then
             echo "Failed to convert issue to PR. HTTP response code: $RESPONSE"
