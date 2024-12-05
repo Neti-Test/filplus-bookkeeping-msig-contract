@@ -9,7 +9,7 @@ jobs:
   convert-issue-to-pr:
     runs-on: ubuntu-latest
     env:
-      BACKEND_URL: https://api.staging.allocator.tech
+      BACKEND_URL: https://api.staging.allocator
     steps:
       - name: Check out code
         uses: actions/checkout@v2
