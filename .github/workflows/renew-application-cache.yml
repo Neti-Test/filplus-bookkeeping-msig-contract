@@ -15,9 +15,9 @@ jobs:
       - name: Renew Application Cache
         run: |
           REPO_NAME=$(echo ${{ github.repository }} | cut -d'/' -f2)
-          curl -X POST "${BACKEND_URL}/application/cache/renewa" \
+          RESPONSE=$(curl -X POST "${BACKEND_URL}/application/cache/renewal" \
           -H "Content-Type: application/json" \
-          -d '{"owner": "'${{ github.repository_owner }}'", "repo": "'$REPO_NAME'"}'
+          -d '{"owner": "'${{ github.repository_owner }}'", "repo": "'$REPO_NAME'"}')
 
           if [ "$RESPONSE" -ne 200 ]; then
             echo "Failed to renew cache. HTTP response code: $RESPONSE"
