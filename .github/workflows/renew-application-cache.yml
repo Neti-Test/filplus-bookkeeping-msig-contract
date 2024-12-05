@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # Schedule to run at 1 AM every day
-    - cron: '0 1 * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   renew_cache:
