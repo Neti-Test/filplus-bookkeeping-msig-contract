@@ -9,7 +9,7 @@ jobs:
   convert-issue-to-pr:
     runs-on: ubuntu-latest
     env:
-      BACKEND_URL: https://api.staging.allocator.tech
+      BACKEND_URL: https://api.staging.allocator
     steps:
       - name: Check out code
         uses: actions/checkout@v2
@@ -19,7 +19,15 @@ jobs:
           REPO_NAME=$(echo ${{ github.repository }} | cut -d'/' -f2)
           echo "Converting Issue To PR with repo: $REPO_NAME"
           echo "Issue number: ${{ github.event.issue.number }}"
-          curl --header "Content-Type: application/json" \
-               --request POST \
-               --data '{"issue_number": "'${{ github.event.issue.number }}'", "repo": "'$REPO_NAME'", "owner": "'${{ github.repository_owner }}'"}' \
-               "${BACKEND_URL}/application"
+          RESPONSE=$(curl --write-out "%{http_code}" --silent --output /dev/null \
+            --header "Content-Type: application/json" \
+            --request POST \
+            --data '{"issue_number": "'${{ github.event.issue.number }}'", "repo": "'$REPO_NAME'", "owner": "'${{ github.repository_owner }}'"}' \
+            "${BACKEND_URL}/application")
+
+          if [ "$RESPONSE" -ne 200 ]; then
+            echo "Failed to convert issue to PR. HTTP response code: $RESPONSE"
+            exit 1
+          else
+            echo "Issue successfully converted to PR."
+          fi
