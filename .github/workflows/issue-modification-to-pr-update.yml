@@ -16,7 +16,7 @@ jobs:
 
       - name: Convert Issue To PR
         run: |
-          RESPONSE=RESPONSE=$(curl -o /dev/null -s -w "%{http_code}" -X POST "${BACKEND_URL}/application/update-from-issue" \
+          RESPONSE=RESPONSE=$(curl -o /dev/null -s -w "%{http_code}" -X POST "${BACKEND_URL}/application/update-from-issu" \
           -H "Content-Type: application/json" \
           -d '{"issue_number": "'${{ github.event.issue.number }}'", "repo": "'$REPO_NAME'", "owner": "'${{ github.repository_owner }}'"}')
 
