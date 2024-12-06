@@ -10,7 +10,7 @@ jobs:
   renew_cache:
     runs-on: ubuntu-latest
     env:
-      BACKEND_URL: https://api.staging.allocator.tech
+      BACKEND_URL: localhost:8080/
     steps:
       - name: Renew Application Cache
         run: |
