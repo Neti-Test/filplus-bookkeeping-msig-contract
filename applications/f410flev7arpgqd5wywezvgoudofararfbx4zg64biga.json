@@ -4,13 +4,13 @@
   "Issue Number": "70",
   "Client Contract Address": "t410f3rcr3t6omqusetedlme6md722xv3xspqs6k6ftq",
   "Client": {
-    "Name": "Neti common dev Test",
+    "Name": "Neti common dev Test 123",
     "Region": "Some Data Owner Country Test",
     "Industry": "Some Data Owner Industry Test",
     "Website": "Some website",
     "Social Media": "",
     "Social Media Type": "",
-    "Role": "Some Role Test"
+    "Role": "Some Role Test 1"
   },
   "Project": {
     "Brief history of your project and organization": "Some brief history of project and org.",
@@ -36,7 +36,7 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2024-11-13 14:58:15.825975022 UTC",
     "Validated By": "Filip-L",
     "Active": true,
