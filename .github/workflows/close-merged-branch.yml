@@ -13,15 +13,6 @@ jobs:
         run: |
           REPO_NAME=$(echo ${{ github.repository }} | cut -d'/' -f2)
           BRANCH_NAME=${{ github.head_ref }}
-          echo "Deleting branch: $BRANCH_NAME in repo: $REPO_NAME"
-
-          RESPONSE=$(curl -s -X POST "${BACKEND_URL}/application/branch/delete" \
-            -H "Content-Type: application/json" \
-            -d '{"owner": "'${{ github.repository_owner }}'", "repo": "'$REPO_NAME'", "branch_name": "'$BRANCH_NAME'"}')
-
-          if [ "$RESPONSE" != "true" ]; then
-            echo "Error: Branch deletion failed."
-            exit 1
-          else
-            echo "Branch deleted successfully."
-          fi
+          curl -f -X POST "${BACKEND_URL}/application/branch/delet" \
+          -H "Content-Type: application/json" \
+          -d '{"owner": "'${{ github.repository_owner }}'", "repo": "'$REPO_NAME'", "branch_name": "'$BRANCH_NAME'"}'
