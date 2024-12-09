@@ -22,4 +22,4 @@ jobs:
           curl -f --header "Content-Type: application/json" \
                --request POST \
                --data '{"issue_number": "'${{ github.event.issue.number }}'", "repo": "'$REPO_NAME'", "owner": "'${{ github.repository_owner }}'"}' \
-               "${BACKEND_URL}/applicatio"
+               "${BACKEND_URL}/application"
