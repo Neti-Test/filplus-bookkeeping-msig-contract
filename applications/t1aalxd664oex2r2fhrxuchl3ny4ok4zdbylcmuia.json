@@ -36,12 +36,12 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2025-01-16 12:33:09.186238086 UTC",
+    "State": "ChangingSP",
+    "Validated At": "2025-01-16 13:38:36.560190256 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-01-16 12:33:09.186217477 UTC",
-    "Active Request ID": "d1e0116c-c0f9-4616-ab2c-e63cc1893524",
+    "Updated At": "2025-01-16 13:38:36.560187140 UTC",
+    "Active Request ID": "86bcccdf-482c-4789-9300-8e7f350629e9",
     "On Chain Address": "t1aalxd664oex2r2fhrxuchl3ny4ok4zdbylcmuia",
     "Multisig Address": "false",
     "edited": false
@@ -68,6 +68,48 @@
           "Created At": "2025-01-16 12:33:04.648000000 UTC",
           "Message CID": "bafy2bzacebwmfl424fcqvvphly3kt2vswvnsgwmel7zhv4r34umljk3bzhhkc",
           "Increase allowance CID": "bafy2bzaceb6gz7t6ut7i4zbuib2s4utlae6bloipbmbq2wkgms7m3jlugidvm"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "86bcccdf-482c-4789-9300-8e7f350629e9",
+      "Created At": "2025-01-16 13:38:36.560155380 UTC",
+      "Updated At": "2025-01-16 13:38:36.560171070 UTC",
+      "Active": true,
+      "Allowed Storage Providers": [
+        1234,
+        1235,
+        5423,
+        5311,
+        5555,
+        9876,
+        7543,
+        64378,
+        7777
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Set Max Deviation CID": "bafy2bzacea2lciyaguaxmcwrcnvc72qtzdvbek4pizwqqljket2lpldrurul2",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacedfkpuflkzcccbwoinocpmdfglebagoz3zwfdd7vjwnygkxlfaj4c": [
+              "7777"
+            ],
+            "bafy2bzacecmhdoqibumy7lh7fcbs24xqjwgbheb57434pzdpurdlsclgccdzk": [
+              "1234",
+              "1235",
+              "5423",
+              "5311",
+              "5555",
+              "9876",
+              "7543",
+              "64378"
+            ]
+          }
         }
       ]
     }
