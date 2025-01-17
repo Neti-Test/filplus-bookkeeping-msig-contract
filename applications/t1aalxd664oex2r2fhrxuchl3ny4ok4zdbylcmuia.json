@@ -36,11 +36,11 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "StartSignDatacap",
-    "Validated At": "2025-01-17 15:22:16.544126593 UTC",
+    "State": "Granted",
+    "Validated At": "2025-01-17 15:26:41.946343119 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-01-17 15:22:16.544109550 UTC",
+    "Updated At": "2025-01-17 15:26:41.946323652 UTC",
     "Active Request ID": "5ae0941b-4b1c-4adb-b706-1a0e59fe072f",
     "On Chain Address": "t1aalxd664oex2r2fhrxuchl3ny4ok4zdbylcmuia",
     "Multisig Address": "false",
@@ -76,7 +76,7 @@
       "Request Type": "Refill",
       "Created At": "2025-01-17 15:17:50.252147728 UTC",
       "Updated At": "2025-01-17 15:17:50.252150844 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "3.1GiB",
       "Signers": [
         {
@@ -85,6 +85,13 @@
           "Created At": "2025-01-17 15:22:09.589000000 UTC",
           "Message CID": "bafy2bzacebyn7bzixrmfyienzcgy7sgkyiffnipjztbfyhpxx7papx5gyktbm",
           "Increase allowance CID": "bafy2bzacedzrmqpvt73dmwqu5nuf6tj7wzadnzy3hsvr6i2co7ch3knyrgry6"
+        },
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1blulplfw336k54jngtlpgxm6zcsmdqe7l5txpfi",
+          "Created At": "2025-01-17 15:26:36.940000000 UTC",
+          "Message CID": "bafy2bzacedquiafhnfut6ottaw3pw45avim6gqwkbmbftnz6mrua7uujohseg",
+          "Increase allowance CID": "bafy2bzacebohifawn3jbuy2kknpohll44mm3ah7s7vujzqyesyyfh7oykfoxq"
         }
       ]
     }
@@ -113,6 +120,9 @@
           "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
           "Set Max Deviation CID": "bafy2bzacea2lciyaguaxmcwrcnvc72qtzdvbek4pizwqqljket2lpldrurul2",
           "Add Allowed Storage Providers CID": {
+            "bafy2bzacedfkpuflkzcccbwoinocpmdfglebagoz3zwfdd7vjwnygkxlfaj4c": [
+              "7777"
+            ],
             "bafy2bzacecmhdoqibumy7lh7fcbs24xqjwgbheb57434pzdpurdlsclgccdzk": [
               "1234",
               "1235",
@@ -122,9 +132,6 @@
               "9876",
               "7543",
               "64378"
-            ],
-            "bafy2bzacedfkpuflkzcccbwoinocpmdfglebagoz3zwfdd7vjwnygkxlfaj4c": [
-              "7777"
             ]
           }
         },
@@ -133,9 +140,6 @@
           "Signing Address": "f1blulplfw336k54jngtlpgxm6zcsmdqe7l5txpfi",
           "Set Max Deviation CID": "bafy2bzacedeqpztapfq4vax5jl6m2jqjsw7pgvexvsan44h5ooob7d2r3cn26",
           "Add Allowed Storage Providers CID": {
-            "bafy2bzacebanhaywiat552ajiahibsx3ekxq5t735jzs4cugqttnutbpiye7w": [
-              "7777"
-            ],
             "bafy2bzacebdc5qn5xtox52hrgkulgirriygjap7i574lodephedt4y2viszoa": [
               "1234",
               "1235",
@@ -145,6 +149,9 @@
               "9876",
               "7543",
               "64378"
+            ],
+            "bafy2bzacebanhaywiat552ajiahibsx3ekxq5t735jzs4cugqttnutbpiye7w": [
+              "7777"
             ]
           }
         }
