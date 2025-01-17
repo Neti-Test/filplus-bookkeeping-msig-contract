@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2024-12-10 16:12:04.383543399 UTC",
+    "Validated At": "2025-01-17 10:48:46.142985593 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2024-12-10 16:12:04.383520636 UTC",
-    "Active Request ID": "2755d6b0-ccaa-4f87-93cf-26c55debd4f7",
+    "Updated At": "2025-01-17 10:48:46.142967989 UTC",
+    "Active Request ID": "46307f6b-f12a-4569-ba7f-fdb5fbef4f0f",
     "On Chain Address": "f1ykfrudiqtwtgjcyvh47qbv7pa2rirg5kbdqwigi",
     "Multisig Address": "false",
     "edited": false
@@ -169,6 +169,41 @@
               "6324",
               "1238",
               "1234"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "46307f6b-f12a-4569-ba7f-fdb5fbef4f0f",
+      "Created At": "2024-12-17 11:33:41.790230431 UTC",
+      "Updated At": "2024-12-17 11:33:41.790247543 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3001,
+        1231,
+        9876543,
+        5313,
+        12345,
+        24324,
+        98989
+      ],
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebtans4kpjff6e2trtcv34b3jk3nskerdcmijq5jf7zo4hwpn254i": [
+              "98989"
+            ]
+          }
+        },
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1blulplfw336k54jngtlpgxm6zcsmdqe7l5txpfi",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaced7dvuhqodqrh674yxmefykefimpj5fdi2znfgq3fe7vruysxm62k": [
+              "98989"
             ]
           }
         }
