@@ -36,11 +36,11 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "ChangingSP",
-    "Validated At": "2025-01-16 13:38:36.560190256 UTC",
+    "State": "Granted",
+    "Validated At": "2025-01-17 09:18:05.323842002 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-01-16 13:38:36.560187140 UTC",
+    "Updated At": "2025-01-17 09:18:05.323822525 UTC",
     "Active Request ID": "86bcccdf-482c-4789-9300-8e7f350629e9",
     "On Chain Address": "t1aalxd664oex2r2fhrxuchl3ny4ok4zdbylcmuia",
     "Multisig Address": "false",
@@ -77,7 +77,7 @@
       "ID": "86bcccdf-482c-4789-9300-8e7f350629e9",
       "Created At": "2025-01-16 13:38:36.560155380 UTC",
       "Updated At": "2025-01-16 13:38:36.560171070 UTC",
-      "Active": true,
+      "Active": false,
       "Allowed Storage Providers": [
         1234,
         1235,
@@ -96,10 +96,30 @@
           "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
           "Set Max Deviation CID": "bafy2bzacea2lciyaguaxmcwrcnvc72qtzdvbek4pizwqqljket2lpldrurul2",
           "Add Allowed Storage Providers CID": {
+            "bafy2bzacecmhdoqibumy7lh7fcbs24xqjwgbheb57434pzdpurdlsclgccdzk": [
+              "1234",
+              "1235",
+              "5423",
+              "5311",
+              "5555",
+              "9876",
+              "7543",
+              "64378"
+            ],
             "bafy2bzacedfkpuflkzcccbwoinocpmdfglebagoz3zwfdd7vjwnygkxlfaj4c": [
               "7777"
+            ]
+          }
+        },
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1blulplfw336k54jngtlpgxm6zcsmdqe7l5txpfi",
+          "Set Max Deviation CID": "bafy2bzacedeqpztapfq4vax5jl6m2jqjsw7pgvexvsan44h5ooob7d2r3cn26",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebanhaywiat552ajiahibsx3ekxq5t735jzs4cugqttnutbpiye7w": [
+              "7777"
             ],
-            "bafy2bzacecmhdoqibumy7lh7fcbs24xqjwgbheb57434pzdpurdlsclgccdzk": [
+            "bafy2bzacebdc5qn5xtox52hrgkulgirriygjap7i574lodephedt4y2viszoa": [
               "1234",
               "1235",
               "5423",
