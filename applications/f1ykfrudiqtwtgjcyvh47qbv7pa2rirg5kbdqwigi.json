@@ -36,11 +36,11 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "ChangingSP",
-    "Validated At": "2024-12-17 11:33:41.790259905 UTC",
+    "State": "Granted",
+    "Validated At": "2025-01-17 10:48:46.142985593 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2024-12-17 11:33:41.790255714 UTC",
+    "Updated At": "2025-01-17 10:48:46.142967989 UTC",
     "Active Request ID": "46307f6b-f12a-4569-ba7f-fdb5fbef4f0f",
     "On Chain Address": "f1ykfrudiqtwtgjcyvh47qbv7pa2rirg5kbdqwigi",
     "Multisig Address": "false",
@@ -178,7 +178,7 @@
       "ID": "46307f6b-f12a-4569-ba7f-fdb5fbef4f0f",
       "Created At": "2024-12-17 11:33:41.790230431 UTC",
       "Updated At": "2024-12-17 11:33:41.790247543 UTC",
-      "Active": true,
+      "Active": false,
       "Allowed Storage Providers": [
         3001,
         1231,
@@ -194,6 +194,15 @@
           "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
           "Add Allowed Storage Providers CID": {
             "bafy2bzacebtans4kpjff6e2trtcv34b3jk3nskerdcmijq5jf7zo4hwpn254i": [
+              "98989"
+            ]
+          }
+        },
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1blulplfw336k54jngtlpgxm6zcsmdqe7l5txpfi",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaced7dvuhqodqrh674yxmefykefimpj5fdi2znfgq3fe7vruysxm62k": [
               "98989"
             ]
           }
