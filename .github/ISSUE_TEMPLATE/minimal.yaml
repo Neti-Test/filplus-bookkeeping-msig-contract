@@ -1,0 +1,21 @@
+name: Sample minimal Allocator.tech issue template
+description: Sample minimal Allocator.tech issue template
+body:
+- type: input
+  attributes:
+    label: Total amount of DataCap being requested 
+    description: Must be a number + unit (e.g 100TiB, 600.46GiB, 1.5PiB)
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Weekly allocation of DataCap requested
+    description: This amount is usually between 1 TiB and 1000 TiB. Must be a number + unit (e.g 100TiB, 600.46GiB, 1.5PiB)
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: On-chain address for first allocation
+    description: Make sure the address exists on the chain. This cannot be changed once input here. Also make sure that this address is not used for other applications.
+  validations:
+    required: true
