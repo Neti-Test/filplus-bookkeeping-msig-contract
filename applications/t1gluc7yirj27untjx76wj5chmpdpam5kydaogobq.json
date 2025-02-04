@@ -36,11 +36,11 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-02-04 12:25:36.446307638 UTC",
+    "State": "StartSignDatacap",
+    "Validated At": "2025-02-04 12:31:37.809552567 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-02-04 12:25:36.446311621 UTC",
+    "Updated At": "2025-02-04 12:31:37.809549226 UTC",
     "Active Request ID": "c05ab2f4-a421-4a71-99ab-5900ff59cb43",
     "On Chain Address": "t1gluc7yirj27untjx76wj5chmpdpam5kydaogobq",
     "Multisig Address": "false",
@@ -54,7 +54,15 @@
       "Updated At": "2025-02-04 12:25:36.446314078 UTC",
       "Active": true,
       "Allocation Amount": "128GiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-02-04 12:31:34.333000000 UTC",
+          "Message CID": "bafy2bzaceagkn4glj6kdlzu4aphkdoozffabzknym53biibvu5yqecwapa3t2",
+          "Increase allowance CID": "bafy2bzaceah2mk3535cs5nscnjcmkkkp5fjxj7awvvn5tuslzy5tgjojha2kk"
+        }
+      ]
     }
   ]
 }
