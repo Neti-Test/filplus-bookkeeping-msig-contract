@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2025-03-21 10:09:15.642596296 UTC",
+    "Validated At": "2025-03-21 10:11:09.614351196 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-03-21 10:09:15.642607277 UTC",
+    "Updated At": "2025-03-21 10:11:09.614348050 UTC",
     "Active Request ID": "06017ef2-e98b-4d72-958c-ee2865a09501",
     "On Chain Address": "t1cywlqyjajm43ddxpea22ezqpornnrg3xyohrgqa",
     "Multisig Address": "false",
@@ -55,6 +55,23 @@
       "Active": true,
       "Allocation Amount": "1 GiB",
       "Signers": []
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "35211a97-93aa-43c7-8576-b6a5cae9ab0a",
+      "Created At": "2025-03-21 10:11:09.614321961 UTC",
+      "Updated At": "2025-03-21 10:11:09.614338412 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Set Max Deviation CID": "bafy2bzacedckyulhzoqeg7n23i7ixtwxbpqkyf3olj3xegqjw7zm3wboej76m"
+        }
+      ]
     }
   ]
 }
