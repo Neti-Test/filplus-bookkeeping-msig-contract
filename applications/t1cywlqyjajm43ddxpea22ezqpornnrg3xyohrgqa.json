@@ -1,0 +1,85 @@
+{
+  "Version": "1.3",
+  "ID": "t1cywlqyjajm43ddxpea22ezqpornnrg3xyohrgqa",
+  "Issue Number": "130",
+  "Client Contract Address": "t410f3rcr3t6omqusetedlme6md722xv3xspqs6k6ftq",
+  "Client": {
+    "Name": "Neti common dev Test 1234",
+    "Region": "Some Data Owner Country Test",
+    "Industry": "Some Data Owner Industry Test",
+    "Website": "Some website",
+    "Social Media": "",
+    "Social Media Type": "",
+    "Role": "Some Role Test"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Some brief history of project and org.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Some data description",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "Some process of data prep.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Some sample of the data",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Some geographies",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "128 GiB",
+    "Single Size Dataset": "32GiB",
+    "Replicas": 2,
+    "Weekly Allocation": "128GiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-03-31 13:30:15.780997002 UTC",
+    "Validated By": "Filip-L",
+    "Active": true,
+    "Updated At": "2025-03-31 13:30:15.780981122 UTC",
+    "Active Request ID": "d8485dfc-b086-4209-9456-326e90f180e8",
+    "On Chain Address": "t1cywlqyjajm43ddxpea22ezqpornnrg3xyohrgqa",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "d8485dfc-b086-4209-9456-326e90f180e8",
+      "Request Type": "First",
+      "Created At": "2025-03-31 13:27:20.938192311 UTC",
+      "Updated At": "2025-03-31 13:27:20.938196108 UTC",
+      "Active": false,
+      "Allocation Amount": "1771674009 B",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Created At": "2025-03-31 13:30:10.600000000 UTC",
+          "Message CID": "bafy2bzacedz4um7acp75bxampxdwfb57srammvgqbaxnlqf6acxpipbhtha54",
+          "Increase allowance CID": "bafy2bzacebctoqrwnqtf5mkpxiznjvz7254ty4x72um5wlch3kqn4c5tj5c4k"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "35211a97-93aa-43c7-8576-b6a5cae9ab0a",
+      "Created At": "2025-03-21 10:11:09.614321961 UTC",
+      "Updated At": "2025-03-21 10:11:09.614338412 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Set Max Deviation CID": "bafy2bzacedckyulhzoqeg7n23i7ixtwxbpqkyf3olj3xegqjw7zm3wboej76m"
+        }
+      ]
+    }
+  ]
+}
