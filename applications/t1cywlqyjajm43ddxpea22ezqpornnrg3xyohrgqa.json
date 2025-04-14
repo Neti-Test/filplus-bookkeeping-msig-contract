@@ -36,11 +36,11 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-04-14 11:58:40.863325547 UTC",
+    "State": "StartSignDatacap",
+    "Validated At": "2025-04-14 12:03:18.173532405 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-04-14 11:58:40.863336668 UTC",
+    "Updated At": "2025-04-14 12:03:18.173514952 UTC",
     "Active Request ID": "36957dd6-467a-434e-aad2-b5ba37cbb768",
     "On Chain Address": "t1cywlqyjajm43ddxpea22ezqpornnrg3xyohrgqa",
     "Multisig Address": "false",
@@ -105,7 +105,15 @@
       "Updated At": "2025-04-14 11:58:40.863345324 UTC",
       "Active": true,
       "Allocation Amount": "5634997092B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Created At": "2025-04-14 12:03:13.022000000 UTC",
+          "Message CID": "bafy2bzacebqrudxiigrzj7gwlwshbpht24nx327s27356krbqhxnx24wzou5i",
+          "Increase allowance CID": "bafy2bzacecbobi4rwwh5vav7sxuvsl3g4xwuzqtky72ejd2a33c5xkjlwgqae"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
