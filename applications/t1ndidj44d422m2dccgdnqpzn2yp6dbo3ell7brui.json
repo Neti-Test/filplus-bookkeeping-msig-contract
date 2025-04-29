@@ -36,7 +36,7 @@
     "Weekly Allocation": "32GiB"
   },
   "Lifecycle": {
-    "State": "TotalDatacapReached",
+    "State": "ChangesRequested",
     "Validated At": "2025-03-31 13:26:10.278138473 UTC",
     "Validated By": "Filip-L",
     "Active": false,
@@ -44,7 +44,7 @@
     "Active Request ID": null,
     "On Chain Address": "t1ndidj44d422m2dccgdnqpzn2yp6dbo3ell7brui",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
