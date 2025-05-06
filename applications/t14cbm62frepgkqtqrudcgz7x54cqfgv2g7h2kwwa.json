@@ -3,7 +3,7 @@
   "ID": "t14cbm62frepgkqtqrudcgz7x54cqfgv2g7h2kwwa",
   "Issue Number": "158",
   "Client": {
-    "Name": "Neti common dev Test 1234",
+    "Name": "Neti common dev Test 12345",
     "Region": "Some Data Owner Country Test",
     "Industry": "Some Data Owner Industry Test",
     "Website": "Some website",
@@ -29,7 +29,7 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "32TiB",
+    "Total Requested Amount": "33TiB",
     "Single Size Dataset": "5TiB",
     "Replicas": 2,
     "Weekly Allocation": "32TiB"
@@ -43,7 +43,7 @@
     "Active Request ID": null,
     "On Chain Address": "t14cbm62frepgkqtqrudcgz7x54cqfgv2g7h2kwwa",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
