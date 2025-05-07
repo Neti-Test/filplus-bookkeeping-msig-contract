@@ -36,11 +36,11 @@
     "Weekly Allocation": "32TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-05-07 13:21:35.763879410 UTC",
+    "State": "Granted",
+    "Validated At": "2025-05-07 13:24:09.652693048 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-05-07 13:21:35.763883921 UTC",
+    "Updated At": "2025-05-07 13:24:09.652689156 UTC",
     "Active Request ID": "34e8c404-bd2e-48ec-a5bf-798ca2600b94",
     "On Chain Address": "t15xwdubazj7aft6ylmiw54fa27zyyl3rpc6olgcy",
     "Multisig Address": "false",
@@ -52,9 +52,17 @@
       "Request Type": "First",
       "Created At": "2025-05-07 13:21:35.763885922 UTC",
       "Updated At": "2025-05-07 13:21:35.763886924 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1073741824 B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-05-07 13:24:06.295000000 UTC",
+          "Message CID": "bafy2bzacec5qksl3d7j7g73kktjafsw2bil7ewhsja5nslckrkrfxuji7g2fk",
+          "Increase allowance CID": "bafy2bzacea5tlojz7zktgzxk3lc3zwut7kk5ymri3nm75pycegtpgcawp3jyu"
+        }
+      ]
     }
   ]
 }
