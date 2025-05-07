@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-05-07 13:24:09.652693048 UTC",
+    "Validated At": "2025-05-07 13:29:08.582554597 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-05-07 13:24:09.652689156 UTC",
-    "Active Request ID": "34e8c404-bd2e-48ec-a5bf-798ca2600b94",
+    "Updated At": "2025-05-07 13:29:08.582553807 UTC",
+    "Active Request ID": "4d0b0385-8c2e-4b87-b611-154f61dc8f36",
     "On Chain Address": "t15xwdubazj7aft6ylmiw54fa27zyyl3rpc6olgcy",
     "Multisig Address": "false",
     "edited": false
@@ -61,6 +61,30 @@
           "Created At": "2025-05-07 13:24:06.295000000 UTC",
           "Message CID": "bafy2bzacec5qksl3d7j7g73kktjafsw2bil7ewhsja5nslckrkrfxuji7g2fk",
           "Increase allowance CID": "bafy2bzacea5tlojz7zktgzxk3lc3zwut7kk5ymri3nm75pycegtpgcawp3jyu"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "20f07312-f46f-4682-9b65-0225e77ce8db",
+      "Created At": "2025-05-07 13:29:08.582537665 UTC",
+      "Updated At": "2025-05-07 13:29:08.582541151 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        123
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Set Max Deviation CID": "bafy2bzacebr5afjl5qit56d75p2ud3xlwtga4ha5sdgwplgruhzp5lyn3ijeg",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceagibngs2envemzzalqxkb6mttnfhf7qccjl5gmn3trofo32r3hzw": [
+              "123"
+            ]
+          }
         }
       ]
     }
