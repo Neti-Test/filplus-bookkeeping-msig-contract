@@ -29,18 +29,18 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "1GiB",
+    "Total Requested Amount": "2GiB",
     "Single Size Dataset": "1GiB",
     "Replicas": 2,
     "Weekly Allocation": "1GiB"
   },
   "Lifecycle": {
-    "State": "TotalDatacapReached",
-    "Validated At": "2025-05-09 11:37:39.451794354 UTC",
+    "State": "Granted",
+    "Validated At": "2025-05-09 11:41:39.101520987 UTC",
     "Validated By": "Filip-L",
-    "Active": false,
-    "Updated At": "2025-05-09 11:40:36.148089377 UTC",
-    "Active Request ID": null,
+    "Active": true,
+    "Updated At": "2025-05-09 11:41:39.101525212 UTC",
+    "Active Request ID": "055b560e-b684-46fd-8084-aafccee1e02d",
     "On Chain Address": "t1sbflxkneufthyokcsc4m4t5a6dqdgovzocq5qty",
     "Multisig Address": "false",
     "edited": false
