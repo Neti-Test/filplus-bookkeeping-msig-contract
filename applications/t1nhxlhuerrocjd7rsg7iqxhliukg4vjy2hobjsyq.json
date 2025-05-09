@@ -3,7 +3,7 @@
   "ID": "t1nhxlhuerrocjd7rsg7iqxhliukg4vjy2hobjsyq",
   "Issue Number": "205",
   "Client": {
-    "Name": "Neti common dev Test 1234",
+    "Name": "Neti common dev Test 12345",
     "Region": "Some Data Owner Country Test",
     "Industry": "Some Data Owner Industry Test",
     "Website": "Some website",
@@ -29,13 +29,13 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "1GiB",
+    "Total Requested Amount": "2GiB",
     "Single Size Dataset": "1GiB",
     "Replicas": 2,
     "Weekly Allocation": "1GiB"
   },
   "Lifecycle": {
-    "State": "TotalDatacapReached",
+    "State": "ChangesRequested",
     "Validated At": "2025-05-09 11:02:36.841771738 UTC",
     "Validated By": "Filip-L",
     "Active": false,
