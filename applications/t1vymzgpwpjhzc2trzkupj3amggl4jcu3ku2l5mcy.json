@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "t1vymzgpwpjhzc2trzkupj3amggl4jcu3ku2l5mcy",
   "Issue Number": "214",
+  "Client Contract Address": "t410f3rcr3t6omqusetedlme6md722xv3xspqs6k6ftq",
   "Client": {
     "Name": "Neti common dev Test 12345",
     "Region": "Some Data Owner Country Test",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1GiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-05-15 17:49:52.282835298 UTC",
+    "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-05-15 17:41:06.355872657 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-05-15 17:49:52.282853873 UTC",
+    "Active Request ID": "fe072437-ac75-479d-9b24-969c00728759",
     "On Chain Address": "t1vymzgpwpjhzc2trzkupj3amggl4jcu3ku2l5mcy",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "fe072437-ac75-479d-9b24-969c00728759",
+      "Request Type": "First",
+      "Created At": "2025-05-15 17:49:52.282860806 UTC",
+      "Updated At": "2025-05-15 17:49:52.282863801 UTC",
+      "Active": true,
+      "Allocation Amount": "2147483648 B",
+      "Signers": []
+    }
+  ]
 }
