@@ -36,12 +36,12 @@
     "Weekly Allocation": "32TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2025-05-07 13:48:09.378710271 UTC",
-    "Validated By": "dampud",
+    "State": "ChangingSP",
+    "Validated At": "2025-06-09 11:13:01.438510703 UTC",
+    "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-05-07 13:48:09.378709254 UTC",
-    "Active Request ID": "01af3dd7-2795-4a1a-96d4-a83f7d248982",
+    "Updated At": "2025-06-09 11:13:01.438507988 UTC",
+    "Active Request ID": "2b59f3ca-5d08-4c94-85dd-b87f26f42692",
     "On Chain Address": "t1njacjiaem4ptgznnl5pbb4i6puycmt2ym6inqyq",
     "Multisig Address": "false",
     "edited": false
@@ -86,6 +86,27 @@
             "bafy2bzacebhjjn7v6zmkjjk67n2sfpjwef6pvrxuzgzx3dbxhjlqdywmzwsn2": [
               "123",
               "124",
+              "125"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "2b59f3ca-5d08-4c94-85dd-b87f26f42692",
+      "Created At": "2025-06-09 11:13:01.438486988 UTC",
+      "Updated At": "2025-06-09 11:13:01.438502077 UTC",
+      "Active": true,
+      "Allowed Storage Providers": [
+        123,
+        124
+      ],
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzaceazxrbx7r7ryojlpk7wy7jyqunuhndxtthkahuhrscsrltermlq4c": [
               "125"
             ]
           }
