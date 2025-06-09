@@ -4,7 +4,7 @@
   "Issue Number": "200",
   "Client Contract Address": "t410f3rcr3t6omqusetedlme6md722xv3xspqs6k6ftq",
   "Client": {
-    "Name": "Neti common dev Test 123456",
+    "Name": "Neti common dev Test 1234567",
     "Region": "Some Data Owner Country Test",
     "Industry": "Some Data Owner Industry Test",
     "Website": "Some website",
@@ -44,7 +44,7 @@
     "Active Request ID": "fcfe6501-d4d0-496b-82e4-c76293ae38c1",
     "On Chain Address": "t1qd6knkgc6hzwo4hgfbulpbeytxqo5d2tqxbfpzq",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
