@@ -36,7 +36,7 @@
     "Weekly Allocation": "32TiB"
   },
   "Lifecycle": {
-    "State": "ChangingSP",
+    "State": "ChangesRequested",
     "Validated At": "2025-06-09 11:13:01.438510703 UTC",
     "Validated By": "Filip-L",
     "Active": true,
@@ -44,7 +44,7 @@
     "Active Request ID": "2b59f3ca-5d08-4c94-85dd-b87f26f42692",
     "On Chain Address": "t1njacjiaem4ptgznnl5pbb4i6puycmt2ym6inqyq",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
