@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-06-25 16:40:13.830215640 UTC",
+    "Validated At": "2025-06-25 16:49:44.007815504 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-06-25 16:40:13.830206292 UTC",
-    "Active Request ID": "50c6629e-62fb-41bf-a43c-ee6dad6aae2b",
+    "Updated At": "2025-06-25 16:49:44.007793773 UTC",
+    "Active Request ID": "8d428c5b-a2b4-48d2-9887-7e58c462394f",
     "On Chain Address": "t1qd6knkgc6hzwo4hgfbulpbeytxqo5d2tqxbfpzq",
     "Multisig Address": "false",
     "edited": false
@@ -136,6 +136,23 @@
           "Created At": "2025-06-25 16:40:08.403000000 UTC",
           "Message CID": "bafy2bzacedxgy3c4cey3ugamc3qdlphksasxvh34p5wvgsxw7r4h5osfyog7g",
           "Increase allowance CID": "bafy2bzacea7dwpbnbb7vomlveoqacr465wspmhnmuzuy4tgwtnaujkryqzm4a"
+        }
+      ]
+    },
+    {
+      "ID": "8d428c5b-a2b4-48d2-9887-7e58c462394f",
+      "Request Type": "Refill",
+      "Created At": "2025-06-25 16:45:58.434757298 UTC",
+      "Updated At": "2025-06-25 16:45:58.434759453 UTC",
+      "Active": false,
+      "Allocation Amount": "1073741824B",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Created At": "2025-06-25 16:49:38.985000000 UTC",
+          "Message CID": "bafy2bzaceb7kiwwqqvwpkwkgslazw3lxi6mhsij77spgajhipwrmqomf2sxbi",
+          "Increase allowance CID": "bafy2bzacecdqslyzq4c2rucswwdz7pchtdodg7vywc2fntyl5t57dosvymtzi"
         }
       ]
     }
