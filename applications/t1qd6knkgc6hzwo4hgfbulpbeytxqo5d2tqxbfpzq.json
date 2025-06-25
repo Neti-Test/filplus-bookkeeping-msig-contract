@@ -13,7 +13,7 @@
     "Role": "Some Role Test"
   },
   "Project": {
-    "Brief history of your project and organization": "Some brief history of project and org.",
+    "Brief history of your project and organization": "Some brief history of project and org. ",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Some data description",
     "Where was the data currently stored in this dataset sourced from": "Other",
