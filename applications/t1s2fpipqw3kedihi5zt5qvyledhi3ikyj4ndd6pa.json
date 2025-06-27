@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2025-06-27 13:00:33.114852880 UTC",
+    "Validated At": "2025-06-27 13:03:34.506106760 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-06-27 13:00:33.114856710 UTC",
+    "Updated At": "2025-06-27 13:03:34.506105686 UTC",
     "Active Request ID": "c26e4942-735a-4cd1-abe1-dc6b2f87d899",
     "On Chain Address": "t1s2fpipqw3kedihi5zt5qvyledhi3ikyj4ndd6pa",
     "Multisig Address": "false",
@@ -72,6 +72,32 @@
       "Active": true,
       "Allocation Amount": "1073741824B",
       "Signers": []
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "691d51e1-bdd4-4aca-8c20-4aa9a7302628",
+      "Created At": "2025-06-27 13:03:34.506097336 UTC",
+      "Updated At": "2025-06-27 13:03:34.506100756 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        12345,
+        12354
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Set Max Deviation CID": "bafy2bzacedh2ask4bg5igxcwdlpxr7quh2f2zl6n53efec35bdbcdcaazueuy",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacedf64hae4uwzcwboqt24vfdzq42nddu3eerd6u3cfwizg3grqqnzi": [
+              "12345",
+              "12354"
+            ]
+          }
+        }
+      ]
     }
   ]
 }
