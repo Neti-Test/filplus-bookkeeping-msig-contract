@@ -1,0 +1,96 @@
+{
+  "Version": "1.3",
+  "ID": "t1lkttwxntftmo7777w735haixuvdo5ozvzzme4oy",
+  "Issue Number": "260",
+  "Client Contract Address": "t410f3rcr3t6omqusetedlme6md722xv3xspqs6k6ftq",
+  "Client": {
+    "Name": "Test 72",
+    "Region": "Some Data Owner Country Test",
+    "Industry": "Some Data Owner Industry Test",
+    "Website": "Some website",
+    "Social Media": "",
+    "Social Media Type": "",
+    "Role": "Some Role Test"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Some brief history of project and org.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Some data description",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "Some process of data prep.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Some sample of the data",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Some geographies",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10GiB",
+    "Single Size Dataset": "1GiB",
+    "Replicas": 2,
+    "Weekly Allocation": "1GiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-07-07 12:06:42.990046614 UTC",
+    "Validated By": "Filip-L",
+    "Active": true,
+    "Updated At": "2025-07-07 12:06:42.990040895 UTC",
+    "Active Request ID": "dcf292ae-c98e-4272-ae35-b3a9be0a3304",
+    "On Chain Address": "t1lkttwxntftmo7777w735haixuvdo5ozvzzme4oy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "dcf292ae-c98e-4272-ae35-b3a9be0a3304",
+      "Request Type": "First",
+      "Created At": "2025-07-07 11:53:30.225805068 UTC",
+      "Updated At": "2025-07-07 11:53:30.225806234 UTC",
+      "Active": false,
+      "Allocation Amount": "1073741824 B",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Created At": "2025-07-07 12:07:11.301000000 UTC",
+          "Message CID": "bafy2bzacedxxnkvzxyoulgpv3vwmglasoklpjc2odadar47q3eux7dvfwgfiw",
+          "Increase allowance CID": "bafy2bzacebzsyoztp5e3zg25zookmjqxwswyuhypi5tfqigoo5apn3frixgzy"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "0f2e09e4-26b7-4ee6-98ca-30073e660934",
+      "Created At": "2025-07-07 11:58:40.560623219 UTC",
+      "Updated At": "2025-07-07 11:58:40.560626597 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        1234,
+        4321,
+        6312
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Set Max Deviation CID": "bafy2bzacecrelrpiymqs3vp5lv2vojiva2lqg5oahflsu72stha6m53w3ehua",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebpnf4jysjofxxsc252erv4jgmbj6z5wt6i4c3w53bpdpsodgha2s": [
+              "1234",
+              "4321",
+              "6312"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
