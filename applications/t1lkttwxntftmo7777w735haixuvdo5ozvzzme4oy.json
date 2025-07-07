@@ -36,11 +36,11 @@
     "Weekly Allocation": "1GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-07-07 12:08:28.273443244 UTC",
+    "State": "Granted",
+    "Validated At": "2025-07-07 12:11:42.592663639 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-07-07 12:08:28.273446801 UTC",
+    "Updated At": "2025-07-07 12:11:42.592659828 UTC",
     "Active Request ID": "e4152460-07ed-4f9c-a26e-48a35228529b",
     "On Chain Address": "t1lkttwxntftmo7777w735haixuvdo5ozvzzme4oy",
     "Multisig Address": "false",
@@ -69,9 +69,17 @@
       "Request Type": "Refill",
       "Created At": "2025-07-07 12:08:28.273449877 UTC",
       "Updated At": "2025-07-07 12:08:28.273450598 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1073741824B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Created At": "2025-07-07 12:12:10.924000000 UTC",
+          "Message CID": "bafy2bzaceao2s3dnpu3josc4f6xug2tj4z2byjw3yxprq7pvvznopx6z67co2",
+          "Increase allowance CID": "bafy2bzacedpyodjwzrfpshqkltgyfsey6cjm4d5rt3wy5fndcupl5e3uuvx2q"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
