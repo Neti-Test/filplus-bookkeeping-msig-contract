@@ -36,11 +36,11 @@
     "Weekly Allocation": "1 GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-07-08 13:19:04.056645298 UTC",
+    "State": "Granted",
+    "Validated At": "2025-07-08 13:22:09.309951644 UTC",
     "Validated By": "LukaszMarciniakNeti",
     "Active": true,
-    "Updated At": "2025-07-08 13:19:04.056643758 UTC",
+    "Updated At": "2025-07-08 13:22:09.309947828 UTC",
     "Active Request ID": "9fd33f69-45bf-4a4d-876a-5dddb9d4de52",
     "On Chain Address": "f410fz5sxr2qgs3shjcl2mjkhlih5kwbu7ma3pmt357i",
     "Multisig Address": "false",
@@ -52,9 +52,17 @@
       "Request Type": "First",
       "Created At": "2025-07-08 13:09:02.057167879 UTC",
       "Updated At": "2025-07-08 13:09:02.057168909 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "536870912 B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "f1yvr3wo7kpnzbdtb4c5rq6aljnb74lodkojbjb6q",
+          "Created At": "2025-07-08 13:22:06.397000000 UTC",
+          "Message CID": "bafy2bzacea6zl6z5ccvz6rgvvs65wqvlnnkjybak3eecqgxqor7qmnvhskpty",
+          "Increase allowance CID": "bafy2bzaceapyiolgxphhkwbzq4slaifcqm2eqeaeyeam6nybgfj4cc3wup4tm"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
