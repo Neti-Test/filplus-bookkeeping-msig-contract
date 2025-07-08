@@ -36,12 +36,12 @@
     "Weekly Allocation": "32TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2025-06-25 16:49:44.007815504 UTC",
+    "State": "DecreasingDataCap",
+    "Validated At": "2025-07-08 17:11:26.656187891 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-06-25 16:49:44.007793773 UTC",
-    "Active Request ID": "8d428c5b-a2b4-48d2-9887-7e58c462394f",
+    "Updated At": "2025-07-08 17:11:26.656183172 UTC",
+    "Active Request ID": "53a672b2-9f52-41a0-9c6b-d87390cfd079",
     "On Chain Address": "t1qd6knkgc6hzwo4hgfbulpbeytxqo5d2tqxbfpzq",
     "Multisig Address": "false",
     "edited": false
@@ -153,6 +153,22 @@
           "Created At": "2025-06-25 16:49:38.985000000 UTC",
           "Message CID": "bafy2bzaceb7kiwwqqvwpkwkgslazw3lxi6mhsij77spgajhipwrmqomf2sxbi",
           "Increase allowance CID": "bafy2bzacecdqslyzq4c2rucswwdz7pchtdodg7vywc2fntyl5t57dosvymtzi"
+        }
+      ]
+    },
+    {
+      "ID": "53a672b2-9f52-41a0-9c6b-d87390cfd079",
+      "Request Type": "Decrease",
+      "Created At": "2025-07-08 17:11:26.656106728 UTC",
+      "Updated At": "2025-07-08 17:11:26.656124742 UTC",
+      "Active": true,
+      "Allocation Amount": "-1073741824 B",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Created At": "2025-07-08 17:11:26.656159367 UTC",
+          "Message CID": "bafy2bzacebt3nlyl4z3ov33qdfff4lmaaox3ujsqzbn2ftdj5cxbomgpy6kza"
         }
       ]
     }
