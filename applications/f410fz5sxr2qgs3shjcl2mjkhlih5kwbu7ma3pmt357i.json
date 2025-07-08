@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2025-07-08 13:16:05.915669050 UTC",
+    "Validated At": "2025-07-08 13:19:04.056645298 UTC",
     "Validated By": "LukaszMarciniakNeti",
     "Active": true,
-    "Updated At": "2025-07-08 13:16:05.915667543 UTC",
+    "Updated At": "2025-07-08 13:19:04.056643758 UTC",
     "Active Request ID": "9fd33f69-45bf-4a4d-876a-5dddb9d4de52",
     "On Chain Address": "f410fz5sxr2qgs3shjcl2mjkhlih5kwbu7ma3pmt357i",
     "Multisig Address": "false",
@@ -81,6 +81,28 @@
               "1111",
               "2222",
               "3333"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "9439d38e-6c76-4f7a-96ef-7d9776610553",
+      "Created At": "2025-07-08 13:19:04.056635182 UTC",
+      "Updated At": "2025-07-08 13:19:04.056639130 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        1111,
+        2222,
+        3333
+      ],
+      "Signers": [
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "f1yvr3wo7kpnzbdtb4c5rq6aljnb74lodkojbjb6q",
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacec5iqnu7mnhpoflli7rjjtvnflhquljfmdblabbgp4byf5cf5eqrq": [
+              "0"
             ]
           }
         }
