@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-08-05 09:23:37.451225799 UTC",
+    "Validated At": "2025-08-05 13:39:35.598732940 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-08-05 09:23:37.451207152 UTC",
-    "Active Request ID": "0b013c1e-b9bd-4e46-ab77-34b74db3b01a",
+    "Updated At": "2025-08-05 13:39:35.598713105 UTC",
+    "Active Request ID": "57b24427-6877-445c-aff0-31d1e99827a7",
     "On Chain Address": "t143agdbyesbwtmcxxojojrsftfepnb32gl6oizwq",
     "Multisig Address": "false",
     "edited": false
@@ -156,6 +156,31 @@
           "Signing Address": "f1blulplfw336k54jngtlpgxm6zcsmdqe7l5txpfi",
           "Created At": "2025-08-05 09:23:32.930000000 UTC",
           "Increase allowance CID": "bafy2bzacedwohm6xxtnhc5tmq4xkpi47o2en5xddoi4eocbvlbtme4tya4slw"
+        }
+      ]
+    },
+    {
+      "ID": "57b24427-6877-445c-aff0-31d1e99827a7",
+      "Request Type": "Refill",
+      "Created At": "2025-08-05 09:24:52.611592192 UTC",
+      "Updated At": "2025-08-05 09:24:52.611595544 UTC",
+      "Active": false,
+      "Allocation Amount": "1610612736B",
+      "Amount of Datacap Sent to Contract": "805306368B",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Created At": "2025-08-05 13:34:58.759000000 UTC",
+          "Message CID": "bafy2bzacebvbt4t4w6jxfm7orip3nc4id64mkozytpwisy57tuna4zp7vyere",
+          "Increase allowance CID": "bafy2bzacecpbzrvmsy4hz3mizg6jw7hw4mrirce4znbgj7wwzblziuld5iq74"
+        },
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1blulplfw336k54jngtlpgxm6zcsmdqe7l5txpfi",
+          "Created At": "2025-08-05 13:39:30.136000000 UTC",
+          "Message CID": "bafy2bzaceawyps5adz3tqngcvivqb477vx6ayddhnwvmfcxsuomca253hlhbm",
+          "Increase allowance CID": "bafy2bzacedppzffjcefffinuvvakz6fpuxad5kxqgwogdvf2gpmizakh2t2ca"
         }
       ]
     }
