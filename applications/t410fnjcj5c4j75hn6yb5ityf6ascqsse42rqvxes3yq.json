@@ -36,7 +36,7 @@
     "Weekly Allocation": "128GiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "Submitted",
     "Validated At": "2024-11-20 11:13:37.912872189 UTC",
     "Validated By": "Filip-L",
     "Active": true,
