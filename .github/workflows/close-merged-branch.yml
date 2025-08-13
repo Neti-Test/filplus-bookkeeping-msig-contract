@@ -1,4 +1,5 @@
-name: delete branch on close pr
+name: delete branch on close pr (deprecated)
+
 on:
   pull_request:
     types: [closed]
@@ -6,13 +7,6 @@ on:
 jobs:
   delete-branch:
     runs-on: ubuntu-latest
-    env:
-      BACKEND_URL: https://api.staging.allocator.tech
     steps:
-      - name: Delete branch
-        run: |
-          REPO_NAME=$(echo ${{ github.repository }} | cut -d'/' -f2)
-          BRANCH_NAME=${{ github.head_ref }}
-          curl -f -X POST "${BACKEND_URL}/application/branch/delete" \
-          -H "Content-Type: application/json" \
-          -d '{"owner": "'${{ github.repository_owner }}'", "repo": "'$REPO_NAME'", "branch_name": "'$BRANCH_NAME'"}'
+      - name: Deprecated notice
+        run: echo "Action deprecated
