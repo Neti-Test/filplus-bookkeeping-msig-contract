@@ -36,11 +36,11 @@
     "Weekly Allocation": "32GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-08-14 07:04:03.869014042 UTC",
+    "State": "Granted",
+    "Validated At": "2025-08-14 07:06:08.031482461 UTC",
     "Validated By": "LukaszMarciniakNeti",
     "Active": true,
-    "Updated At": "2025-08-14 07:04:03.869018087 UTC",
+    "Updated At": "2025-08-14 07:06:08.031477301 UTC",
     "Active Request ID": "75870d35-92b6-4c30-8d7f-86471b6fe3ef",
     "On Chain Address": "t143agdbyesbwtmcxxojojrsftfepnb32gl6oizwq",
     "Multisig Address": "false",
@@ -351,9 +351,16 @@
       "Request Type": "Refill",
       "Created At": "2025-08-14 07:04:03.869074830 UTC",
       "Updated At": "2025-08-14 07:04:03.869075695 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1073741824B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "f1yvr3wo7kpnzbdtb4c5rq6aljnb74lodkojbjb6q",
+          "Created At": "2025-08-14 07:06:04.441000000 UTC",
+          "Increase allowance CID": "bafy2bzacecxjkgxv6ynfsy3vsqcludslnxxz6hr2qnan5sxqc4lk54ftqgifa"
+        }
+      ]
     }
   ]
 }
