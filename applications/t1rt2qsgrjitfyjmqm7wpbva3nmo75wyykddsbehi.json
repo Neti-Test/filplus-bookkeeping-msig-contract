@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "t1rt2qsgrjitfyjmqm7wpbva3nmo75wyykddsbehi",
   "Issue Number": "332",
+  "Client Contract Address": "t410fxd6tft3hpsnstbqxbnzvtwhd3yrtuivkldyuh2y",
   "Client": {
     "Name": "Test Decrease FL",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "32 GiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-08-18 10:11:43.547156257 UTC",
+    "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-08-18 10:10:53.155337561 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-08-18 10:11:43.547160828 UTC",
+    "Active Request ID": "4d9828c2-2a09-4b96-9f75-7bed7b38872a",
     "On Chain Address": "t1rt2qsgrjitfyjmqm7wpbva3nmo75wyykddsbehi",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "4d9828c2-2a09-4b96-9f75-7bed7b38872a",
+      "Request Type": "First",
+      "Created At": "2025-08-18 10:11:43.547163202 UTC",
+      "Updated At": "2025-08-18 10:11:43.547164399 UTC",
+      "Active": true,
+      "Allocation Amount": "1073741824 B",
+      "Signers": []
+    }
+  ]
 }
