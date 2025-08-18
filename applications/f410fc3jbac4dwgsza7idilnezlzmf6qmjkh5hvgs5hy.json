@@ -1,0 +1,116 @@
+{
+  "Version": "1.3",
+  "ID": "f410fc3jbac4dwgsza7idilnezlzmf6qmjkh5hvgs5hy",
+  "Issue Number": "322",
+  "Client Contract Address": "t410fxd6tft3hpsnstbqxbnzvtwhd3yrtuivkldyuh2y",
+  "Client": {
+    "Name": "Decrease LM 2",
+    "Region": "United States",
+    "Industry": "IT & Technology Services",
+    "Website": "https://pangeo-data.github.io/pangeo-cmip6-cloud/",
+    "Social Media": "[at]pangeo_data (Twitter)",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "FrogHub has always defined itself as a tool developer and infrastructure builder in the Filecoin ecosystem. In 2019, we started to focus on technical solutions and development based on the IPFS protocol and Filecoin network. We have been working hard to become a qualified builder in the filecoin ecosystem..\n\nOur team is a very pure development team, more than 90% of which are developers, more than half of whom have more than 5 years of development experience in communication, Internet, blockchain and other industries. We hope that we can gain users' recognition by exporting useful tools and platforms.\n\nIn order to contribute to the filecoin community, we have developed the open source sector repair tool Filecoin-Sealer-Recover and the nft free authoring platform NFT-Creator.\nIn addition, we plan to provide a sector browser for the community in 2023 and build the liquidity pledge platform STFIL on FVM.\n\nSee the links below for details.\n\nmaking: https://github.com/orgs/froghub-io",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Zarr formatted data and Netcdf formatted data.\nThe sixth phase of global coupled ocean-atmosphere general circulation model ensemble.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "After we download data from the Internet, the data is cut into disks through Singularity, and then the hard disk is mailed to the SPs.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://cmip6-pds/\naws s3 ls --no-sign-request s3://esgf-world/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03231154, HongKong\nf03218576, Portland, United States\nf03215853, Portland, United States\nf03157910, Shenzhen, China\nf03157905, Shenzhen, China\nf03220172, Singapore\nf03220176, HongKong\nf01025366, Qingdao, China",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "32 GiB",
+    "Single Size Dataset": "5TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "32 GiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-08-14 06:55:09.283650401 UTC",
+    "Validated By": "LukaszMarciniakNeti",
+    "Active": true,
+    "Updated At": "2025-08-14 06:55:09.283649389 UTC",
+    "Active Request ID": "cc42c9f4-78f2-43da-a863-a057890edf28",
+    "On Chain Address": "f410fc3jbac4dwgsza7idilnezlzmf6qmjkh5hvgs5hy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "c36df808-b898-4ba2-8dee-93cd73842a02",
+      "Request Type": "First",
+      "Created At": "2025-08-14 06:16:57.825906154 UTC",
+      "Updated At": "2025-08-14 06:16:57.825907115 UTC",
+      "Active": false,
+      "Allocation Amount": "5368709120 B",
+      "Signers": [
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "f1yvr3wo7kpnzbdtb4c5rq6aljnb74lodkojbjb6q",
+          "Created At": "2025-08-14 06:20:36.235000000 UTC",
+          "Message CID": "bafy2bzaceccunqskifno2ic2ycbgd6excc3jqsyn537mulmh5u3dgrub3e2hg",
+          "Increase allowance CID": "bafy2bzaceb4fq4anzl3v46h5vncuxl3j3dj3rsrw66swvwvhc3dubvlo7eef4"
+        }
+      ]
+    },
+    {
+      "ID": "349734c2-b516-4b9c-9b15-9a27a159eb2c",
+      "Request Type": "Decrease",
+      "Created At": "2025-08-14 06:24:09.577651804 UTC",
+      "Updated At": "2025-08-14 06:24:09.577655944 UTC",
+      "Active": false,
+      "Allocation Amount": "-2147483648 B",
+      "Signers": [
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "f1yvr3wo7kpnzbdtb4c5rq6aljnb74lodkojbjb6q",
+          "Created At": "2025-08-14 06:24:09.577664914 UTC",
+          "Message CID": "bafy2bzacedrj2nyacfbwpc2qyqw7t2rxbhfy6zirfduzfzv6ih32zkmy3pvi6"
+        }
+      ]
+    },
+    {
+      "ID": "f09095cf-bd69-4578-ab20-7c7a8d4feebd",
+      "Request Type": "Decrease",
+      "Created At": "2025-08-14 06:41:37.296641427 UTC",
+      "Updated At": "2025-08-14 06:41:37.296647930 UTC",
+      "Active": false,
+      "Allocation Amount": "-2147483648 B",
+      "Signers": [
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "f1yvr3wo7kpnzbdtb4c5rq6aljnb74lodkojbjb6q",
+          "Created At": "2025-08-14 06:41:37.296655490 UTC",
+          "Message CID": "bafy2bzaceb6rwwtmwnyk5gnjvpdkvh7pn6dtueuoidvgl3g36abyiscximdjs"
+        }
+      ]
+    },
+    {
+      "ID": "cc42c9f4-78f2-43da-a863-a057890edf28",
+      "Request Type": "Decrease",
+      "Created At": "2025-08-14 06:55:09.283631487 UTC",
+      "Updated At": "2025-08-14 06:55:09.283636662 UTC",
+      "Active": false,
+      "Allocation Amount": "-1073741824 B",
+      "Signers": [
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "f1yvr3wo7kpnzbdtb4c5rq6aljnb74lodkojbjb6q",
+          "Created At": "2025-08-14 06:55:09.283645446 UTC",
+          "Message CID": "bafy2bzaceb7zc4r23h45entttgrv2fn5ku5v75uiezd54otgk465jgg5h6sgu"
+        }
+      ]
+    }
+  ]
+}
