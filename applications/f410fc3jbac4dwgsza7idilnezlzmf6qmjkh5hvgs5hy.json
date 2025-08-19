@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-08-19 13:29:07.946803546 UTC",
+    "Validated At": "2025-08-19 13:35:57.485409753 UTC",
     "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-08-19 13:29:07.946800271 UTC",
-    "Active Request ID": "15d3e283-4ed6-4ddf-b380-86bd860c4010",
+    "Updated At": "2025-08-19 13:35:57.485405566 UTC",
+    "Active Request ID": "6f78aedf-a5bd-455d-a262-abf987534599",
     "On Chain Address": "f410fc3jbac4dwgsza7idilnezlzmf6qmjkh5hvgs5hy",
     "Multisig Address": "false",
     "edited": false
@@ -287,6 +287,22 @@
           "Created At": "2025-08-19 13:29:40.561000000 UTC",
           "Message CID": "bafy2bzacearmvg6cuog2jennuscpkccvxd5hvijxqpxkgnoqlqawuwabpxvjk",
           "Increase allowance CID": "bafy2bzacea3aqypjh653rwmsrairsx3zlue5lyhg43aslphevzh6y3zzexeqm"
+        }
+      ]
+    },
+    {
+      "ID": "6f78aedf-a5bd-455d-a262-abf987534599",
+      "Request Type": "Decrease",
+      "Created At": "2025-08-19 13:35:57.485317640 UTC",
+      "Updated At": "2025-08-19 13:35:57.485333240 UTC",
+      "Active": false,
+      "Allocation Amount": "-1073741824 B",
+      "Signers": [
+        {
+          "Github Username": "Filip-L",
+          "Signing Address": "f1gyf5fzvohawd2vzobjht4ued5zunfjjxqfyhqui",
+          "Created At": "2025-08-19 13:35:57.485373646 UTC",
+          "Message CID": "bafy2bzacecalyqd5osmmpw4rigbezoehzfhctfbk6tpj7ubzv6ra2q75v3ih6"
         }
       ]
     }
