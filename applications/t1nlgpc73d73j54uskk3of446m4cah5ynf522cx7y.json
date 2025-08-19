@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "t1nlgpc73d73j54uskk3of446m4cah5ynf522cx7y",
   "Issue Number": "357",
+  "Client Contract Address": "t410fxd6tft3hpsnstbqxbnzvtwhd3yrtuivkldyuh2y",
   "Client": {
     "Name": "Decrease LM 5",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "32 GiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-08-19 17:58:57.652318828 UTC",
+    "Validated By": "LukaszMarciniakNeti",
     "Active": true,
-    "Updated At": "2025-08-19 17:57:59.862742876 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-08-19 17:58:57.652323903 UTC",
+    "Active Request ID": "b26485a7-28af-4cb2-9c90-d90e301ffcfd",
     "On Chain Address": "t1nlgpc73d73j54uskk3of446m4cah5ynf522cx7y",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "b26485a7-28af-4cb2-9c90-d90e301ffcfd",
+      "Request Type": "First",
+      "Created At": "2025-08-19 17:58:57.652326378 UTC",
+      "Updated At": "2025-08-19 17:58:57.652327843 UTC",
+      "Active": true,
+      "Allocation Amount": "2147483648 B",
+      "Signers": []
+    }
+  ]
 }
