@@ -2,7 +2,6 @@
   "Version": "1.3",
   "ID": "f16jljxpxhs3pan2sotpyftdhl6zjal4nhlkhenwy",
   "Issue Number": "320",
-  "Client Contract Address": "t410fxd6tft3hpsnstbqxbnzvtwhd3yrtuivkldyuh2y",
   "Client": {
     "Name": "Decrease LM 1",
     "Region": "United States",
@@ -36,25 +35,15 @@
     "Weekly Allocation": "32 GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-08-19 10:42:07.167357475 UTC",
-    "Validated By": "LukaszMarciniakNeti",
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
     "Active": true,
-    "Updated At": "2025-08-19 10:42:07.167362116 UTC",
-    "Active Request ID": "b770e638-12f8-4131-8efd-c680f3bcc1f0",
+    "Updated At": "2025-08-19 10:58:34.082244996 UTC",
+    "Active Request ID": "",
     "On Chain Address": "f16jljxpxhs3pan2sotpyftdhl6zjal4nhlkhenwy",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": [
-    {
-      "ID": "b770e638-12f8-4131-8efd-c680f3bcc1f0",
-      "Request Type": "First",
-      "Created At": "2025-08-19 10:42:07.167364730 UTC",
-      "Updated At": "2025-08-19 10:42:07.167365836 UTC",
-      "Active": true,
-      "Allocation Amount": "1073741824 B",
-      "Signers": []
-    }
-  ]
+  "Allocation Requests": []
 }
