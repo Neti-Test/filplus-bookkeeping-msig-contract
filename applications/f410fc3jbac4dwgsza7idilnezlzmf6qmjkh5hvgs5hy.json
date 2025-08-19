@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-08-19 10:47:12.095689943 UTC",
+    "Validated At": "2025-08-19 10:52:13.905534586 UTC",
     "Validated By": "LukaszMarciniakNeti",
     "Active": true,
-    "Updated At": "2025-08-19 10:47:12.095686059 UTC",
-    "Active Request ID": "64701cb7-bb20-4f9b-85f9-604b07578f13",
+    "Updated At": "2025-08-19 10:52:13.905530621 UTC",
+    "Active Request ID": "7a9dd7ea-8b76-4396-995b-b6ec8ffa95a3",
     "On Chain Address": "f410fc3jbac4dwgsza7idilnezlzmf6qmjkh5hvgs5hy",
     "Multisig Address": "false",
     "edited": false
@@ -157,6 +157,22 @@
           "Signing Address": "f1yvr3wo7kpnzbdtb4c5rq6aljnb74lodkojbjb6q",
           "Created At": "2025-08-19 10:47:08.677000000 UTC",
           "Increase allowance CID": "bafy2bzacecrmtgurg7gbgdtytgxvf2iv5ukl7cmaz2dv622aapccmtt5ebmlq"
+        }
+      ]
+    },
+    {
+      "ID": "7a9dd7ea-8b76-4396-995b-b6ec8ffa95a3",
+      "Request Type": "Refill",
+      "Created At": "2025-08-19 10:50:28.783570039 UTC",
+      "Updated At": "2025-08-19 10:50:28.783570860 UTC",
+      "Active": false,
+      "Allocation Amount": "1073741824B",
+      "Signers": [
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "f1yvr3wo7kpnzbdtb4c5rq6aljnb74lodkojbjb6q",
+          "Created At": "2025-08-19 10:52:10.782000000 UTC",
+          "Increase allowance CID": "bafy2bzacectc3mwdxym2jrljwcz2byivaolz676dlpfu2tdpdtfc3bkd62z7s"
         }
       ]
     }
