@@ -36,12 +36,12 @@
     "Weekly Allocation": "32 GiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2025-08-20 11:43:34.803544580 UTC",
+    "State": "ReadyToSign",
+    "Validated At": "2025-08-20 11:44:22.915263223 UTC",
     "Validated By": "LukaszMarciniakNeti",
     "Active": true,
-    "Updated At": "2025-08-20 11:43:34.803543512 UTC",
-    "Active Request ID": "c971693b-b13e-4b75-ae71-b89448a226e2",
+    "Updated At": "2025-08-20 11:44:22.915266701 UTC",
+    "Active Request ID": "a4526ffb-ccbb-419f-828d-59fa819af9cc",
     "On Chain Address": "t1fuo2jxaxpgcdkjhljqmxw37s2yurjph5pd6a56a",
     "Multisig Address": "false",
     "edited": false
@@ -187,6 +187,15 @@
           "Message CID": "f1wvqglgv6hdtnhrekt2rd7uj6hthz4clzra47lji"
         }
       ]
+    },
+    {
+      "ID": "a4526ffb-ccbb-419f-828d-59fa819af9cc",
+      "Request Type": "Refill",
+      "Created At": "2025-08-20 11:44:22.915313001 UTC",
+      "Updated At": "2025-08-20 11:44:22.915313788 UTC",
+      "Active": true,
+      "Allocation Amount": "2147483648B",
+      "Signers": []
     }
   ]
 }
