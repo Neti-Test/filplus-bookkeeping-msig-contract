@@ -36,11 +36,11 @@
     "Weekly Allocation": "32 GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-08-20 11:32:48.304643323 UTC",
+    "State": "StartSignDatacap",
+    "Validated At": "2025-08-20 11:36:05.032286375 UTC",
     "Validated By": "LukaszMarciniakNeti",
     "Active": true,
-    "Updated At": "2025-08-20 11:32:48.304648045 UTC",
+    "Updated At": "2025-08-20 11:36:05.032282298 UTC",
     "Active Request ID": "8bc6e045-5c7b-4837-ba0e-88f5d6b8ad99",
     "On Chain Address": "t1fuo2jxaxpgcdkjhljqmxw37s2yurjph5pd6a56a",
     "Multisig Address": "false",
@@ -148,7 +148,16 @@
       "Updated At": "2025-08-20 11:32:48.304654866 UTC",
       "Active": true,
       "Allocation Amount": "3221225472B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "3221225472B",
+      "Signers": [
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "f1yvr3wo7kpnzbdtb4c5rq6aljnb74lodkojbjb6q",
+          "Created At": "2025-08-20 11:36:00.631000000 UTC",
+          "Message CID": "bafy2bzacecrulzxzoyzdz2zevn3lir6yay634j65zxl7jibjcescuwp5j7fi4",
+          "Increase allowance CID": "bafy2bzacecrqqj64k7qsba2623pk4bexz47sax6kaejojfig46x6quh54idge"
+        }
+      ]
     }
   ]
 }
