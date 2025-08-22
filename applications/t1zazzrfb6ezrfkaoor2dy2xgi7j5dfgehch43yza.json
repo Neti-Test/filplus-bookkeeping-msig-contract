@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "t1zazzrfb6ezrfkaoor2dy2xgi7j5dfgehch43yza",
   "Issue Number": "311",
+  "Client Contract Address": "t410fxd6tft3hpsnstbqxbnzvtwhd3yrtuivkldyuh2y",
   "Client": {
     "Name": "Test Decrease4",
     "Region": "Some Data Owner Country Test",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "32GiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-08-22 12:10:57.379236948 UTC",
+    "Validated By": "Filip-L",
     "Active": true,
-    "Updated At": "2025-08-13 14:03:34.349272174 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-08-22 12:10:57.379241544 UTC",
+    "Active Request ID": "288f0013-6019-42bf-82ac-b4e80e3f365e",
     "On Chain Address": "t1zazzrfb6ezrfkaoor2dy2xgi7j5dfgehch43yza",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "288f0013-6019-42bf-82ac-b4e80e3f365e",
+      "Request Type": "First",
+      "Created At": "2025-08-22 12:10:57.379243500 UTC",
+      "Updated At": "2025-08-22 12:10:57.379244426 UTC",
+      "Active": true,
+      "Allocation Amount": "3221225472 B",
+      "Signers": []
+    }
+  ]
 }
