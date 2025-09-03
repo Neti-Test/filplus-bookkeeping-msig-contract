@@ -35,11 +35,11 @@
     "Weekly Allocation": "32 GiB"
   },
   "Lifecycle": {
-    "State": "Declined",
+    "State": "Submitted",
     "Validated At": "",
     "Validated By": "",
-    "Active": false,
-    "Updated At": "2025-09-03 09:40:35.571228212 UTC",
+    "Active": true,
+    "Updated At": "2025-09-03 09:40:52.071052712 UTC",
     "Active Request ID": null,
     "On Chain Address": "f410fm2zvoydwkfl7k7iujmhm7w6xtpgtzrcluyqrtry",
     "Multisig Address": "false",
