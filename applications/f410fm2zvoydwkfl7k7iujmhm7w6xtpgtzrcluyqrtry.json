@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f410fm2zvoydwkfl7k7iujmhm7w6xtpgtzrcluyqrtry",
   "Issue Number": "387",
+  "Client Contract Address": "t410fxd6tft3hpsnstbqxbnzvtwhd3yrtuivkldyuh2y",
   "Client": {
     "Name": "Issue LM 1",
     "Region": "United States",
@@ -35,15 +36,38 @@
     "Weekly Allocation": "32 GiB"
   },
   "Lifecycle": {
-    "State": "Declined",
-    "Validated At": "",
-    "Validated By": "",
-    "Active": false,
-    "Updated At": "2025-09-03 09:40:35.571228212 UTC",
-    "Active Request ID": null,
+    "State": "Granted",
+    "Validated At": "2025-09-03 09:54:35.325061690 UTC",
+    "Validated By": "LukaszMarciniakNeti",
+    "Active": true,
+    "Updated At": "2025-09-03 09:54:35.325057480 UTC",
+    "Active Request ID": "4380ef12-3e0e-45b4-aeaa-ec400f70773b",
     "On Chain Address": "f410fm2zvoydwkfl7k7iujmhm7w6xtpgtzrcluyqrtry",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "4380ef12-3e0e-45b4-aeaa-ec400f70773b",
+      "Request Type": "First",
+      "Created At": "2025-09-03 09:41:53.514819789 UTC",
+      "Updated At": "2025-09-03 09:41:53.514821291 UTC",
+      "Active": false,
+      "Allocation Amount": "2147483648 B",
+      "Signers": [
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "f1wvqglgv6hdtnhrekt2rd7uj6hthz4clzra47lji",
+          "Created At": "2025-09-03 09:44:39.725000000 UTC",
+          "Increase allowance CID": "bafy2bzaceduw2rc4cggqf35lvanvpdt7jorvdd3zsns6cgs5d44qhpyu562ay"
+        },
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "f1yvr3wo7kpnzbdtb4c5rq6aljnb74lodkojbjb6q",
+          "Created At": "2025-09-03 09:54:32.103000000 UTC",
+          "Increase allowance CID": "bafy2bzacecfgwwun7bkyj2rr2r4qgnsekfxw7itmdcendnxkcnvfw67i4di5y"
+        }
+      ]
+    }
+  ]
 }
