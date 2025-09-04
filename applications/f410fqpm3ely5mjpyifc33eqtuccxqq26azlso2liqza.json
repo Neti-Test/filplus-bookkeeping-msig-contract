@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f410fqpm3ely5mjpyifc33eqtuccxqq26azlso2liqza",
   "Issue Number": "395",
+  "Client Contract Address": "t410fxd6tft3hpsnstbqxbnzvtwhd3yrtuivkldyuh2y",
   "Client": {
     "Name": "Issue LM 3",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "32 GiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-09-04 08:13:05.317414471 UTC",
+    "Validated By": "LukaszMarciniakNeti",
     "Active": true,
-    "Updated At": "2025-09-04 08:11:31.774407114 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-09-04 08:13:05.317418137 UTC",
+    "Active Request ID": "d7c5cb6e-bb8c-42fb-908c-ba4d54eb3cd5",
     "On Chain Address": "f410fqpm3ely5mjpyifc33eqtuccxqq26azlso2liqza",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "d7c5cb6e-bb8c-42fb-908c-ba4d54eb3cd5",
+      "Request Type": "First",
+      "Created At": "2025-09-04 08:13:05.317420887 UTC",
+      "Updated At": "2025-09-04 08:13:05.317422305 UTC",
+      "Active": true,
+      "Allocation Amount": "2147483648 B",
+      "Signers": []
+    }
+  ]
 }
