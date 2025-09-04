@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-09-04 08:23:06.131833971 UTC",
+    "Validated At": "2025-09-04 08:33:36.324790845 UTC",
     "Validated By": "LukaszMarciniakNeti",
     "Active": true,
-    "Updated At": "2025-09-04 08:23:06.131830200 UTC",
-    "Active Request ID": "c0bb1df3-abe9-4430-a020-6df1ff9caa34",
+    "Updated At": "2025-09-04 08:33:36.324789894 UTC",
+    "Active Request ID": "715ad355-5904-4c6b-9c16-ab2264684de9",
     "On Chain Address": "f410fqpm3ely5mjpyifc33eqtuccxqq26azlso2liqza",
     "Multisig Address": "false",
     "edited": false
@@ -88,6 +88,28 @@
           "Signing Address": "f1wvqglgv6hdtnhrekt2rd7uj6hthz4clzra47lji",
           "Created At": "2025-09-04 08:23:03.373000000 UTC",
           "Increase allowance CID": "bafy2bzacec7acggver3ehzk3r27yuizulif26zkrs4wb6ptg4nz76r2jvpkru"
+        }
+      ]
+    },
+    {
+      "ID": "715ad355-5904-4c6b-9c16-ab2264684de9",
+      "Request Type": "Decrease",
+      "Created At": "2025-09-04 08:31:36.515210144 UTC",
+      "Updated At": "2025-09-04 08:31:36.515215069 UTC",
+      "Active": false,
+      "Allocation Amount": "-1073741824 B",
+      "Signers": [
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "f1yvr3wo7kpnzbdtb4c5rq6aljnb74lodkojbjb6q",
+          "Created At": "2025-09-04 08:31:36.515225017 UTC",
+          "Message CID": "bafy2bzacebjyqmqrntf2zjtpkj2drj2bbegcljm5d5fpotaxnandvqyfpq4qs"
+        },
+        {
+          "Github Username": "LukaszMarciniakNeti",
+          "Signing Address": "bafy2bzacedlv5om7qbvwiikl4gaxowyywuyiukxdc4hai4awaueyvhs7ktrdw",
+          "Created At": "2025-09-04 08:33:36.324775305 UTC",
+          "Message CID": "f1wvqglgv6hdtnhrekt2rd7uj6hthz4clzra47lji"
         }
       ]
     }
